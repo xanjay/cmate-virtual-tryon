@@ -180,9 +180,6 @@ class Main:
 SOURCE_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\selena.jpg"
 DEST_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\figure-above.jpg"
 
-#%%
 cloth_blender = Main(SOURCE_IMG, DEST_IMG)
 cloth_blender.visualize()
 
-
-# %%
