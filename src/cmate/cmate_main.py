@@ -9,7 +9,7 @@ import imutils
 #TODO: create error list
 ERROR_LIST = [] # e.g. angle and distance too high
 
-class Main:
+class CMate:
     def __init__(self, source_img, dest_img):
         self.source_img = source_img
         self.dest_img = dest_img
@@ -177,9 +177,9 @@ class Main:
 # SOURCE_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\vest.jpg"
 # DEST_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\figure-above.jpg"
 
-SOURCE_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\selena.jpg"
-DEST_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\figure-above.jpg"
+# SOURCE_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\selena.jpg"
+# DEST_IMG = "C:\\Users\\sanja\\Desktop\\pose_test\\figure-above.jpg"
 
-cloth_blender = Main(SOURCE_IMG, DEST_IMG)
-cloth_blender.visualize()
+# cloth_blender = CMate(SOURCE_IMG, DEST_IMG)
+# cloth_blender.visualize()
 

@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+
+    <div class="col-6">
+        <h1 class="display-4">Virtual Clothing Try On</h1>
+        
+        <!-- flash messages -->
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">
+                        {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <form method="POST" action="">
+            {{ form.hidden_tag() }}
+            <!-- upload source image -->
+            <p>
+            <div class="form-group">
+                <label>Upload Image containing source cloth.</label><br>
+                {% if form.source_image_url.errors %}
+                    {{form.source_image_url(class="form-control is-invalid")}}
+                    <div class="invalid-feedback">
+                        {% for error in form.source_image_url.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    {{form.source_image_url(class="form-control")}}
+                {% endif %}
+                <small id="sourceImageHelp" class="form-text text-muted">Best when cloth is fully seen in image.</small>
+            </div>
+            </p>
+            <div>
+                {{ form.submit(class="btn btn-outline-info", disabled="True") }}
+            </div>
+        </form>
+        
+    </div>
+
+    <div class="col-6">
+        <img src="{{ url_for('static', filename='images/vest.jpg')}}" class="img-fluid">
+    </div>
+</div>
+
+{% endblock %}
+
+
+{% block script %}
+<script>
+    $('document').ready(function(){
+        $('#source_image_url').on('input', function(){
+        var source_image_url = $('#source_image_url').val();
+        // console.log("File details:" + source_image_url);
+
+        if (source_image_url != '') {
+            $("#submit").removeAttr("disabled");
+        }
+        else{
+            $("#submit").attr("disabled", "True");
+        }
+        })
+    })
+</script>
+{% endblock %}

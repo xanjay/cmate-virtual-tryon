@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+
+    <div class="col-6">
+        <h1 class="display-4">Virtual Clothing Try On</h1>
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                        <span>{{ message }}</span>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <div class="row">
+            
+            <div class="col">
+                <p>Profile Image:</p><br>
+                <img src="{{ url_for('static', filename=profile_image)}}" class="img-fluid" width="200" height="200">
+            </div>
+            
+            <div class="col">
+                <p>Source Image:</p><br>
+                <img src="{{ url_for('static', filename=source_image)}}" class="img-fluid" width="200" height="200">
+            </div>
+            <div class="col">
+                <p>Result Image:</p><br>
+                <img src="{{ url_for('static', filename=result_image)}}" class="img-fluid" width="200" height="200">
+            </div>
+        </div>
+ 
+    </div>
+
+    <div class="col-6">
+        <img src="{{ url_for('static', filename='images/vest.jpg')}}" class="img-fluid">
+    </div>
+</div>
+
+{% endblock %}

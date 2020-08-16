@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+
+  <div class="col-6 col-md">
+    <h1 class="display-4">Virtual Clothing Try On</h1>
+    <p class="lead">See how does it look on you. Try on clothes from online stores or your favourite celebrity outfit.</p>
+    <a class="btn btn-outline-secondary" href="{{ url_for('upload_profile_image')}}">Try On</a>
+  </div>
+
+  <div class="col-6 col-md">
+    <img src="{{ url_for('static', filename='images/vest.jpg')}}" class="img-fluid">
+  </div>
+</div>
+
+{% endblock %}

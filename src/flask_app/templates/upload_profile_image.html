@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="row">
+
+    <div class="col-6">
+        <h1 class="display-4">Virtual Clothing Try On</h1>
+
+        <form method="POST" action="" enctype="multipart/form-data">
+            {{ form.hidden_tag() }}
+            <!-- upload profile image -->
+            <p>
+            <div class="form-group">
+                <label>Upload Profile Image</label><br>
+                {% if form.profile_image.errors %}
+                    {{form.profile_image(class="form-control is-invalid")}}
+                    <div class="invalid-feedback">
+                        {% for error in form.profile_image.errors %}
+                            <span>{{ error }}</span>
+                        {% endfor %}
+                    </div>
+                {% else %}
+                    {{form.profile_image(class="form-control")}}
+                {% endif %}
+                <small id="profilehelp" class="form-text text-muted">Image must be portrait with normal pose.</small>
+            </div>
+            </p>
+            <div class="form-group">
+                {{ form.submit(class="btn btn-outline-info", disabled="True") }}
+            </div>    
+        </form>
+        
+    </div>
+
+    <div class="col-6">
+        <img src="{{ url_for('static', filename='images/vest.jpg')}}" class="img-fluid">
+    </div>
+</div>
+
+{% endblock %}
+
+{% block script %}
+<script>
+    $('document').ready(function(){
+        $('#profile_image').change(function(){
+        var profile_image = $('#profile_image').val();
+        // console.log("File details:" + profile_image);
+
+        if (profile_image != '') {
+            $("#submit").removeAttr("disabled");
+        }
+        })
+    })
+</script>
+{% endblock %}
