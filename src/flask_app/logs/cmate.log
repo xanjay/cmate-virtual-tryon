@@ -432,3 +432,737 @@ INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 14:30:57] "[37mGET / HTTP/1.1[0m" 200 -
 INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app_test.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:21] "[36mGET /static/favicon.ico HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:28] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:28] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:47] "[1m[35mPOST /upload_source_image/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:48] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:48] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:48] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:48] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:48] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:53:49] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:__init__:Downloading Imgae: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:30] "[1m[35mPOST /upload_source_image/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:30] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:30] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:30] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:30] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:30] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:30] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:__init__:Downloading Imgae: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:56] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:56] "[1m[35mGET /tryon/tryon/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:57] "[37mGET /tryon/tryon/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:57] "[37mGET /tryon/tryon/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:57] "[37mGET /tryon/tryon/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:57] "[37mGET /tryon/tryon/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:57] "[37mGET /tryon/tryon/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 17:55:57] "[37mGET /tryon/tryon/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:16] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:17] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:27] "[1m[35mPOST /upload_source_image/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:27] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:27] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:27] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:28] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:28] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:28] "[37mGET /upload_source_image/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:__init__:Downloading Imgae: https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Blue_Tshirt.jpg/220px-Blue_Tshirt.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:03:47] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:04:58] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:00] "[37mGET /static/user_uploads/result-2020-08-16-18-04-58.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:00] "[37mGET /static/user_uploads/image-2020-08-16-18-03-46.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:27] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:27] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://purepng.com/public/uploads/medium/purepng.com-t-shirtclothingt-shirtfashion-dress-shirt-cloth-tshirt-631522326894v5b0y.png
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:44] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:44] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://purepng.com/public/uploads/medium/purepng.com-t-shirtclothingt-shirtfashion-dress-shirt-cloth-tshirt-631522326894v5b0y.png
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:54] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:05:54] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://ae01.alicdn.com/kf/HTB1eVeLmLiSBuNkSnhJq6zDcpXah.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:06:07] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:07:02] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:07:03] "[37mGET /static/user_uploads/result-2020-08-16-18-07-02.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:07:04] "[37mGET /static/user_uploads/image-2020-08-16-18-06-06.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:17:26] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:17:26] "[37mGET /static/user_uploads/result-2020-08-16-18-17-26.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:17:27] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\utils.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:18:39] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSsJiFCYoj14yYIV2sUVPPxWuNCuFNp2uf4sw&usqp=CAU
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:18:45] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:19:11] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:19:11] "[37mGET /static/user_uploads/image-2020-08-16-18-18-43.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:19:11] "[37mGET /static/user_uploads/result-2020-08-16-18-19-10.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:24:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:24:50] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:25:01] "[32mPOST /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:25:01] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://4.imimg.com/data4/FJ/DY/MY-24080996/girls-fancy-t-shirt-500x500.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:25:59] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:26:26] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:26:26] "[37mGET /static/user_uploads/photo-smiling-woman-standing-up.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:26:26] "[37mGET /static/user_uploads/image-2020-08-16-18-25-58.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:26:26] "[37mGET /static/user_uploads/result-2020-08-16-18-26-25.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:27:19] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://rukminim1.flixcart.com/image/332/398/kb5eikw0/t-shirt/n/f/z/s-newtoprib-red-elepants-original-imafsk897mfsz4sf.jpeg?q=50
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:27:22] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:27:46] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:27:46] "[37mGET /static/user_uploads/image-2020-08-16-18-27-21.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:27:46] "[37mGET /static/user_uploads/result-2020-08-16-18-27-46.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:28:52] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:28:52] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://i0.wp.com/cdn-prod.medicalnewstoday.com/content/images/articles/322/322683/woman-holding-stomach-in-pain.jpg?w=1155&h=1671
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:28:56] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:29:21] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:29:22] "[37mGET /static/user_uploads/image-2020-08-16-18-28-56.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:29:22] "[37mGET /static/user_uploads/result-2020-08-16-18-29-21.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:31:40] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://www.verywellfit.com/thmb/ev7BTWot_2i9ZbOzG0J7F1dGq58=/1500x844/smart/filters:no_upscale()/sukasana-56aa41263df78cf772aed2e3.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:31:48] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:32:13] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:32:13] "[37mGET /static/user_uploads/image-2020-08-16-18-31-43.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 18:32:13] "[37mGET /static/user_uploads/result-2020-08-16-18-32-12.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:35] "[1m[35mGET /tryon/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:35] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:36] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:36] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:36] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:36] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:37] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:43] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:51] "[32mPOST /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:16:51] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://4.imimg.com/data4/FJ/DY/MY-24080996/girls-fancy-t-shirt-500x500.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:17:10] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:18:14] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:18:16] "[37mGET /static/user_uploads/result-2020-08-16-23-18-13.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:18:16] "[37mGET /static/user_uploads/image-2020-08-16-23-17-08.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:18:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:18:45] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://cdn-ssl.s7.disneystore.com/is/image/DisneyShopping/5621048023764-1
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:18:50] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:19:32] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:19:33] "[37mGET /static/user_uploads/result-2020-08-16-23-19-31.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:19:33] "[37mGET /static/user_uploads/image-2020-08-16-23-18-49.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:24:30] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:24:31] "[37mGET /static/user_uploads/result-2020-08-16-23-24-30.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:24:31] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\custom_shoulder_locator.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:26:03] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:26:04] "[37mGET /static/user_uploads/result-2020-08-16-23-26-03.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:26:04] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:28:38] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://image.made-in-china.com/2f0j00udnazWVrYUps/Silkscreen-Tshirt-Compressed-Tshirt-Girls-Tshirt-Fashion-Tshirt.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:28:44] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:29:09] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:29:09] "[37mGET /static/user_uploads/image-2020-08-16-23-28-43.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:29:09] "[37mGET /static/user_uploads/result-2020-08-16-23-29-09.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:33:07] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:33:07] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:33:09] "[37mGET /static/user_uploads/result-2020-08-16-23-33-04.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:33:10] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\custom_shoulder_locator.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:34:55] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://images-na.ssl-images-amazon.com/images/I/61zfW0XYKAL._UL1500_.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:35:00] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:35:36] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:35:36] "[37mGET /static/user_uploads/image-2020-08-16-23-34-58.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:35:36] "[37mGET /static/user_uploads/result-2020-08-16-23-35-36.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\custom_shoulder_locator.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:40:22] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:40:22] "[37mGET /static/user_uploads/result-2020-08-16-23-40-22.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:40:23] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:41:11] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://image.spreadshirtmedia.com/image-server/v1/mp/products/T943A557MPA3084PT17X50Y2D1021044111FS2005/views/1,width=378,height=378,appearanceId=557,backgroundColor=F2F2F2,modelId=314,crop=list,version=1574317576,modelImageVersion=1586244881/cute-salad-girl-donut-love-design-womens-rolled-sleeve-t-shirt.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:41:16] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:41:39] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:41:39] "[37mGET /static/user_uploads/image-2020-08-16-23-41-15.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:41:39] "[37mGET /static/user_uploads/result-2020-08-16-23-41-39.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:42:49] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://img5.cfcdn.club/e6/35/e6e52562898aa7928cce4698f324fa35_350x350.jpg
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:42:52] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:43:17] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:43:17] "[37mGET /static/user_uploads/image-2020-08-16-23-42-51.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Aug/2020 23:43:17] "[37mGET /static/user_uploads/result-2020-08-16-23-43-17.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:17:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:18:32] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:18:32] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:27:57] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:27:57] "[37mGET /static/user_uploads/result-2020-08-17-00-27-56.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:32:42] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:32:42] "[37mGET /static/user_uploads/result-2020-08-17-00-32-41.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:32:42] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:33:05] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://5.imimg.com/data5/CY/GF/MY-16429928/desi-girl-stretchable-blouse-no-15-500x500.jpg
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:33:38] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:34:22] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:34:24] "[37mGET /static/user_uploads/result-2020-08-17-00-34-22.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:34:24] "[37mGET /static/user_uploads/image-2020-08-17-00-33-37.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:34:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:35:34] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:35:34] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:03] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:04] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:05] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:14] "[32mPOST /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:14] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:18] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:18] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:19] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:19] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:27] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:42:27] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:00] "[33mGET /static/user_uploads/profile_image HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:04] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:04] "[33mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:04] "[33mGET /static/css/bootstrap/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:33] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[37mGET /static/css/base-template.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[33mGET /static/user_uploads/%7B%7Bprofile_image%7D%7D HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[37mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[33mGET /static/css/bootstrap/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[37mGET /static/js/popper.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:34] "[33mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:44:35] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:06] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:06] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:06] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:06] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:06] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:07] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:07] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:08] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:08] "[37mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:08] "[37mGET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:08] "[37mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:09] "[37mGET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:09] "[37mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET /static/css/base-template.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET /static/js/popper.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET /static/user_uploads/test12345n.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[33mGET /static/css/bootstrap/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[33mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:23] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:43] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:43] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:47] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:47] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:45:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\controller\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\controller\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\controller\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\controller\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\controller\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:44] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:45] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:46] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:47] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:55] "[37mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:55] "[37mGET /static/css/base-template.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:56] "[37mGET /static/js/popper.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:56] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:56] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:56] "[37mGET /static/user_uploads/test12345n.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:50:56] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\controller\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:51:54] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:51:54] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:32] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:32] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:35] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:35] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:44] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:46] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:54:46] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:55:07] "[37mGET / HTTP/1.1[0m" 200 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:55:22] "[1m[35mGET /tryon/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:55:23] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:55:23] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:55:23] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:55:23] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:55:23] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:57:06] "[1m[35mGET /tryon/ HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:57:06] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:57:06] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:57:06] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:57:06] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:57:06] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:57:07] "[37mGET /tryon/?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:58:26] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:58:26] "[33mGET /static/user_uploads/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:58:27] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 00:59:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:03] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:03] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:16] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:20] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:00:20] "[33mGET /static/user_uploads/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /static/css/base-template.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /static/js/popper.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[33mGET /static/user_uploads/image-2020-08-17-00-33-37.jpg HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[33mGET /static/user_uploads/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /static/user_uploads/test12345n.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:16] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:01:37] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://cdn.shoplo.com/9065/products/th2048/aaa1/3726-dsc09763-edit.jpg
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:02:00] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:02:00] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:05:26] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:05:27] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://cdn.shoplo.com/9065/products/th2048/aaa1/3726-dsc09763-edit.jpg
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:05:37] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:05:37] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:07:06] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:07:06] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://cdn.shoplo.com/9065/products/th2048/aaa1/3726-dsc09763-edit.jpg
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:07:12] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:07:12] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:07:57] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:07:57] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://cdn.shoplo.com/9065/products/th2048/aaa1/3726-dsc09763-edit.jpg
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:08:04] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:08:04] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://images-na.ssl-images-amazon.com/images/I/71YiqF0CQhL._UL1500_.jpg
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:08:22] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:09:06] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:09:07] "[37mGET /static/user_uploads/image-2020-08-17-01-08-20.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:09:07] "[37mGET /static/user_uploads/result-2020-08-17-01-09-06.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:09:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:10:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:10:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:12:02] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:12:03] "[37mGET /static/user_uploads/result-2020-08-17-01-12-01.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:12:05] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\controller\\main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:21:27] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:21:27] "[37mGET /static/user_uploads/result-2020-08-17-01-21-27.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:21:29] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:22:56] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:22:56] "[33mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 01:22:56] "[33mGET /static/css/bootstrap/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:33] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:35] "[36mGET /static/user_uploads/test12345n.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:35] "[36mGET /static/css/base-template.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:35] "[36mGET /static/user_uploads/image-2020-08-17-01-08-20.jpg HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:35] "[37mGET /static/user_uploads/result-2020-08-17-21-34-30.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:35] "[36mGET /static/images/logo.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:35] "[36mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:36] "[36mGET /static/js/popper.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:36] "[36mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:38] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:34:57] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:16] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET /static/css/base-template.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET /static/js/popper.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET /static/images/vest.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:32] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:40] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:47] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:47] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:36:57] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:37:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:37:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:38:04] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:38:04] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:38:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:38:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:38:54] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:39:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:40:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:40:11] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:43:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:43:23] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:43:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 21:43:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:18:08] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:35:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:36:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:36:06] "[37mGET /static/images/profile.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:07] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:12] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:26] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:27] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:28] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:28] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:34] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:35] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:37:46] "[37mGET /upload_profile_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:39:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:39:10] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:39:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:39:51] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:39:51] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://www.dhresource.com/albu_351015763_00/1.0x0.jpg
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:40:35] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:41:43] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:41:45] "[37mGET /static/user_uploads/image-2020-08-17-23-40-29.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:41:45] "[37mGET /static/user_uploads/result-2020-08-17-23-41-43.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:42:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:46:07] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:46:08] "[37mGET /static/user_uploads/result-2020-08-17-23-46-06.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:46:08] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:58:37] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:58:38] "[37mGET /static/user_uploads/result-2020-08-17-23-58-37.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Aug/2020 23:58:38] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:00:15] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:00:15] "[37mGET /static/user_uploads/result-2020-08-18-00-00-15.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:00:16] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:01:41] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:01:41] "[37mGET /static/user_uploads/result-2020-08-18-00-01-40.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:01:42] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:07:24] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:07:24] "[37mGET /static/user_uploads/result-2020-08-18-00-07-23.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:07:25] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:09:26] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:09:27] "[37mGET /static/user_uploads/result-2020-08-18-00-09-26.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:09:27] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:10:31] "[33mGET /static/js/bootstrap.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:10:31] "[33mGET /static/js/popper.min.js.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:10:31] "[33mGET /static/css/bootstrap/bootstrap.min.css.map HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:13:06] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:13:06] "[37mGET /static/user_uploads/result-2020-08-18-00-13-06.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:13:07] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:15:21] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:15:21] "[37mGET /static/user_uploads/result-2020-08-18-00-15-21.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:15:22] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:16:01] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:16:01] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:18:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:18:18] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:18:18] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:__init__:Downloading Imgae: https://5.imimg.com/data5/DL/DN/MY-33407711/double-cloth-reversible-shirt-500x500.jpg
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:18:48] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:19:12] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:19:12] "[37mGET /static/user_uploads/image-2020-08-18-00-18-47.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:19:12] "[37mGET /static/user_uploads/result-2020-08-18-00-19-12.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:41:09] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:41:46] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Aug/2020 00:41:46] "[37mGET /static/user_uploads/result-2020-08-18-00-41-46.jpg HTTP/1.1[0m" 200 -

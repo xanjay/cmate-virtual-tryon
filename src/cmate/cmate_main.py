@@ -16,6 +16,7 @@ class CMate:
         self.dest_pose_estimator = PoseEstimator(
             cv.imread(self.dest_img), "dest")
         self.source_pose_estimator = None  # initialize after cloth extraction
+        self.error_list = ['shoulder not aligned.']
 
     def cloth_segmentation(self):
         # extract source image and segmented cloth
@@ -88,11 +89,11 @@ class CMate:
         final_img = utils.blend_images(
             rotated_seg, source_points, dest_frame, dest_points)
 
-        return final_img
+        return final_img, self.error_list
 
     def visualize(self):
         # first apply cloth
-        final_img = self.apply_cloth()
+        final_img, _ = self.apply_cloth()
         cv.imshow("final img", final_img)
 
         source_frame = cv.imread(self.source_img)

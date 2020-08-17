@@ -1,3 +1,4 @@
+from flask import session
 from datetime import datetime
 import os
 import sys
@@ -6,7 +7,7 @@ import cv2
 
 # add flask_app to PYTHONPATH
 #TODO: change cmake main dir
-sys.path.insert(0, 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate')
+sys.path.insert(1, 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate')
 from cmate_main import CMate
 
 # add flask_app to PYTHONPATH
@@ -24,13 +25,19 @@ def download_image(image_url, dest_folder):
     except urllib.error.HTTPError:
         return "404:Invalid Image URL"
 
-    
-    
 
 def blend_images(profile_img, source_img, images_dir):
     "apply cloth to profile image and save to result"
     cloth_blender = CMate(os.path.join(images_dir, source_img), os.path.join(images_dir, profile_img))
-    final_img = cloth_blender.apply_cloth()
+    final_img, errors = cloth_blender.apply_cloth()
     filename = "result-"+datetime.now().strftime("%Y-%m-%d-%H-%M-%S")+".jpg"
     cv2.imwrite(os.path.join(images_dir, filename), final_img)
-    return filename
+    return filename, errors
+
+
+def session_alive(app):
+    " check if user has already uploaded profile image"
+    if 'profile_image' in session.keys():
+        if os.path.isfile(os.path.join(app.static_folder, app.config["UPLOAD_FOLDER"], session['profile_image'])):
+            return True
+    return False

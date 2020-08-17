@@ -3,9 +3,30 @@
 {% block content %}
 
 <div class="row">
+            
+    <div class="col">
+        <p>
+            <span>Profile Image</span>
+            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_profile_image')}}">Change</a>
+        </p>
+        <img src="{{ url_for('static', filename=profile_image)}}" class="img-fluid img-thumbnail">
+    </div>
+    
+    <div class="col">
+        <p>
+            <span>Source Image</span>
+            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_source_image')}}">Try Next</a>
+        </p>
+        <img src="{{ url_for('static', filename=source_image)}}" class="img-fluid img-thumbnail">
+    </div>
 
-    <div class="col-6">
-        <h1 class="display-4">Virtual Clothing Try On</h1>
+    <div class="col">
+        <p>
+            <span>Result Image</span>
+            <a class="btn btn-outline-primary d-inline ml-3" href="#">Download</a>
+        </p>
+        <img src="{{ url_for('static', filename=result_image)}}" class="img-fluid img-thumbnail">
+        
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
@@ -18,28 +39,9 @@
                 {% endfor %}
             {% endif %}
         {% endwith %}
-        <div class="row">
-            
-            <div class="col">
-                <p>Profile Image:</p><br>
-                <img src="{{ url_for('static', filename=profile_image)}}" class="img-fluid" width="200" height="200">
-            </div>
-            
-            <div class="col">
-                <p>Source Image:</p><br>
-                <img src="{{ url_for('static', filename=source_image)}}" class="img-fluid" width="200" height="200">
-            </div>
-            <div class="col">
-                <p>Result Image:</p><br>
-                <img src="{{ url_for('static', filename=result_image)}}" class="img-fluid" width="200" height="200">
-            </div>
-        </div>
- 
+        
     </div>
-
-    <div class="col-6">
-        <img src="{{ url_for('static', filename='images/vest.jpg')}}" class="img-fluid">
-    </div>
+    
 </div>
 
 {% endblock %}

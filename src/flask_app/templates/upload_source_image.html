@@ -3,16 +3,26 @@
 {% block content %}
 
 <div class="row">
+    <div class="col-6 col-md">
+        {% if profile_image %}
+          <img src="{{ url_for('static', filename='user_uploads/'+profile_image)}}" class="img-fluid">
+        {% else %}
+          <img src="{{ url_for('static', filename='images/profile.jpg')}}" class="img-fluid">
+        {% endif %}
+      </div>
 
-    <div class="col-6">
+    <div class="col-6 col-md">
         <h1 class="display-4">Virtual Clothing Try On</h1>
         
         <!-- flash messages -->
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
                 {% for category, message in messages %}
-                    <div class="alert alert-{{ category }}">
-                        {{ message }}
+                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                        <span>{{ message }}</span>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
                     </div>
                 {% endfor %}
             {% endif %}
@@ -44,9 +54,6 @@
         
     </div>
 
-    <div class="col-6">
-        <img src="{{ url_for('static', filename='images/vest.jpg')}}" class="img-fluid">
-    </div>
 </div>
 
 {% endblock %}

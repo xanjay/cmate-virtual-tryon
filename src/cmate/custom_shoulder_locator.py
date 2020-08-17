@@ -17,7 +17,7 @@ def get_shoulder_loc_mannual(cloth_seg):
     height, width = crop_seg.shape[:2]
     # find right and left shoulder
     #  TODO: take 10% width offset
-    offset = int(0.20*width)
+    offset = int(0.15*width)
     # print(offset)
     # right shoulder
     col_vector = crop_seg[:, offset]

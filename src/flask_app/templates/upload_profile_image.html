@@ -3,7 +3,9 @@
 {% block content %}
 
 <div class="row">
-
+    <div class="col-6">
+        <img src="{{ url_for('static', filename='images/profile.jpg')}}" class="img-fluid">
+    </div>
     <div class="col-6">
         <h1 class="display-4">Virtual Clothing Try On</h1>
 
@@ -33,9 +35,6 @@
         
     </div>
 
-    <div class="col-6">
-        <img src="{{ url_for('static', filename='images/vest.jpg')}}" class="img-fluid">
-    </div>
 </div>
 
 {% endblock %}
