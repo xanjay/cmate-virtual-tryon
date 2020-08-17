@@ -2,4 +2,6 @@
 venv/
 
 __pycache__/
+
 logs/
+user_uploads/
