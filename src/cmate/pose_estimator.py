@@ -87,7 +87,7 @@ class PoseEstimator:
         # raises: shoulder not found.
         if len(self.shoulder_points)<2:
             # print(self.origin+" image w/o shoulder.")
-            raise Exception(self.origin+" image w/o shoulder.")
+            raise Exception(self.origin+" image without shoulder.")
 
         distance = self.shoulder_points[1][0] - self.shoulder_points[0][0]
         rotation_angle = find_rotation_angle(self.shoulder_points[0], self.shoulder_points[1])

@@ -14,20 +14,24 @@ class CMate:
         self.source_img = source_img
         self.dest_img = dest_img
         self.dest_pose_estimator = PoseEstimator(
-            cv.imread(self.dest_img), "dest")
+            cv.imread(self.dest_img), "profile")
         self.source_pose_estimator = None  # initialize after cloth extraction
-        self.error_list = ['shoulder not aligned.']
+        self.error_list = []
 
     def cloth_segmentation(self):
         # extract source image and segmented cloth
-        source_img, source_seg = cloth_extractor.extract_cloth(self.source_img)
-        source_img = cv.cvtColor(source_img, cv.COLOR_RGB2BGR)
-        source_seg = cv.cvtColor(source_seg, cv.COLOR_RGB2BGR)
-        # print(source_img.shape, source_seg.shape)
-        # fill holes
-        source_seg = utils.fill_holes(source_img, source_seg)
+        try:
+            source_img, source_seg = cloth_extractor.extract_cloth(self.source_img)
+        
+            source_img = cv.cvtColor(source_img, cv.COLOR_RGB2BGR)
+            source_seg = cv.cvtColor(source_seg, cv.COLOR_RGB2BGR)
+            # print(source_img.shape, source_seg.shape)
+            # fill holes
+            source_seg = utils.fill_holes(source_img, source_seg)
 
-        return source_img, source_seg
+            return source_img, source_seg
+        except Exception:
+            raise Exception("Source image without cloth.")
 
     def get_source_shoulder_details(self, source_img, cloth_seg):
         "get source shoulder distance and rotation angle"
@@ -39,6 +43,7 @@ class CMate:
             source_points = self.source_pose_estimator.shoulder_points
         except Exception as e:
             print(str(e))
+            self.error_list.append(str(e))
             # if no source shoulder points detected
             source_points, source_distance, source_angle = custom_shoulder_locator.get_shoulder_details_mannual(cloth_seg)
 
@@ -51,15 +56,18 @@ class CMate:
         # step 2: get source image and segmented cloth
         source_img, source_seg = self.cloth_segmentation()
 
-        # cv.imwrite("C:\\Users\\sanja\\Desktop\\testseg.jpg", source_seg)
+        # cv.imwrite("testseg.jpg", source_seg)
 
         # step 3: get source shoulder distance and rotation angle
         source_points, source_distance, source_angle = self.get_source_shoulder_details(
             source_img, source_seg)
 
         # step 4: resize source seg and shoulder points
-        resize_factor = dest_distance/source_distance
-        print("resize factor:", resize_factor)
+        try:
+            resize_factor = dest_distance/source_distance
+            print("resize factor:", resize_factor)
+        except ZeroDivisionError:
+            raise Exception("Shoulder detection issue in source image.")
 
         source_seg = cv.resize(source_seg,
                                (int(source_seg.shape[1]*resize_factor),
@@ -73,8 +81,10 @@ class CMate:
 
         # step 5: rotate source seg and shoulder points
         rotation_angle = dest_angle - source_angle
-        # clip angle between [-5,5]
-        rotation_angle = max(-5, min(rotation_angle, 5))
+        # clip angle between [-10,10]
+        if abs(rotation_angle) > 5:
+            self.error_list.append("Source Image is rotated: %f" % rotation_angle)
+        rotation_angle = max(-10, min(rotation_angle, 10))
         print("rotation angle:", rotation_angle)
         rotated_seg = imutils.rotate(source_seg, rotation_angle)
         source_points = utils.rotate_shoulder_points(source_seg, source_points,
@@ -86,9 +96,11 @@ class CMate:
         # step 6: blend dest image and extracted cloth
         dest_frame = cv.imread(self.dest_img)
         dest_points = self.dest_pose_estimator.shoulder_points
-        final_img = utils.blend_images(
-            rotated_seg, source_points, dest_frame, dest_points)
-
+        try:
+            final_img = utils.blend_images(
+                rotated_seg, source_points, dest_frame, dest_points)
+        except Exception:
+            raise Exception("Issue in Blending Images.")
         return final_img, self.error_list
 
     def visualize(self):

@@ -4,4 +4,8 @@ main {
 
 .footer {
   height: 20px;
+  padding-top: 80% !important;
 }
+/* .body {
+  height: 100% !important
+} */

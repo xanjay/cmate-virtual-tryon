@@ -1,0 +1,7 @@
+#1 get source image+seg
+#2 get source image shoulder location
+#3 get dest image shoulder location
+#4 transfor source seg to match dest: resize and rotate source image and shoulder points
+	- find resize and rotatio angle using source img.
+#6 crop square segmenetation
+#7 blend with source (backoff=rightshoulder-startofsquare_seg)

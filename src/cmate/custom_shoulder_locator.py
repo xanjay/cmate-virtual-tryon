@@ -32,13 +32,17 @@ def get_shoulder_loc_mannual(cloth_seg):
     return shoulder_points
 
 def get_shoulder_details_mannual(cloth_seg):
-    # get shoulder width and rotation angle
-    shoulder_points = get_shoulder_loc_mannual(cloth_seg)
+    try:
+        # get shoulder width and rotation angle
+        shoulder_points = get_shoulder_loc_mannual(cloth_seg)
 
-    distance = shoulder_points[1][0] - shoulder_points[0][0]
-    rotation_angle = find_rotation_angle(shoulder_points[0], shoulder_points[1])
+        distance = shoulder_points[1][0] - shoulder_points[0][0]
+        rotation_angle = find_rotation_angle(shoulder_points[0], shoulder_points[1])
 
-    return shoulder_points, distance, rotation_angle
+        return shoulder_points, distance, rotation_angle
+    except Exception as e:
+        print("Error at manual shoulder detection.\n"+str(e))
+        raise Exception("Invalid Source Image.")
 
 # img = cv.imread("C:\\Users\\sanja\\Desktop\\testseg.jpg")
 # print(get_shoulder_details_mannual(img))

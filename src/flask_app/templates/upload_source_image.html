@@ -1,19 +1,24 @@
 {% extends "base.html" %}
 
+{% block style %}
+
+{% endblock %}
+
 {% block content %}
 
+<!-- default body -->
 <div class="row">
     <div class="col-6 col-md">
         {% if profile_image %}
-          <img src="{{ url_for('static', filename='user_uploads/'+profile_image)}}" class="img-fluid">
+          <img src="{{ url_for('get_uploaded_image', filename=profile_image)}}" class="img-fluid">
         {% else %}
-          <img src="{{ url_for('static', filename='images/profile.jpg')}}" class="img-fluid">
+          <img src="{{ url_for('static', filename='images/samples/sample_profile1.jpg')}}" class="img-fluid">
         {% endif %}
       </div>
 
     <div class="col-6 col-md">
         <h1 class="display-4">Virtual Clothing Try On</h1>
-        
+
         <!-- flash messages -->
         {% with messages = get_flashed_messages(with_categories=true) %}
             {% if messages %}
@@ -35,14 +40,14 @@
             <div class="form-group">
                 <label>Upload Image containing source cloth.</label><br>
                 {% if form.source_image_url.errors %}
-                    {{form.source_image_url(class="form-control is-invalid")}}
+                    {{form.source_image_url(class="form-control is-invalid", accept="image/*")}}
                     <div class="invalid-feedback">
                         {% for error in form.source_image_url.errors %}
                             <span>{{ error }}</span>
                         {% endfor %}
                     </div>
                 {% else %}
-                    {{form.source_image_url(class="form-control")}}
+                    {{form.source_image_url(class="form-control", accept="image/*")}}
                 {% endif %}
                 <small id="sourceImageHelp" class="form-text text-muted">Best when cloth is fully seen in image.</small>
             </div>
@@ -50,6 +55,12 @@
             <div>
                 {{ form.submit(class="btn btn-outline-info", disabled="True") }}
             </div>
+            <!-- show loading on submit -->
+            <p hidden class="loader">
+                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Please Wait...
+            </p>
+            
         </form>
         
     </div>
@@ -73,6 +84,10 @@
             $("#submit").attr("disabled", "True");
         }
         })
+        // toggle loader
+        $("#submit").click(function() {
+            $("p.loader").removeAttr("hidden");
+        });
     })
 </script>
 {% endblock %}

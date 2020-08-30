@@ -4,11 +4,13 @@
 
 <div class="row">
     <div class="col-6">
-        <img src="{{ url_for('static', filename='images/profile.jpg')}}" class="img-fluid">
-    </div>
+        {% if profile_image %}
+            <img src="{{ url_for('get_uploaded_image', filename=profile_image)}}" class="img-fluid">
+        {% else %}
+            <img src="{{ url_for('static', filename='images/samples/sample_profile1.jpg')}}" class="img-fluid">
+        {% endif %}    </div>
     <div class="col-6">
         <h1 class="display-4">Virtual Clothing Try On</h1>
-
         <form method="POST" action="" enctype="multipart/form-data">
             {{ form.hidden_tag() }}
             <!-- upload profile image -->
@@ -16,19 +18,20 @@
             <div class="form-group">
                 <label>Upload Profile Image</label><br>
                 {% if form.profile_image.errors %}
-                    {{form.profile_image(class="form-control is-invalid")}}
+                    {{form.profile_image(class="form-control is-invalid", accept="image/*")}}
                     <div class="invalid-feedback">
                         {% for error in form.profile_image.errors %}
                             <span>{{ error }}</span>
                         {% endfor %}
                     </div>
                 {% else %}
-                    {{form.profile_image(class="form-control")}}
+                    {{form.profile_image(class="form-control", accept="image/*")}}
                 {% endif %}
                 <small id="profilehelp" class="form-text text-muted">Image must be portrait with normal pose.</small>
             </div>
             </p>
             <div class="form-group">
+                <a class="btn btn-outline-info" href="{{ url_for('home')}}">Back</a>
                 {{ form.submit(class="btn btn-outline-info", disabled="True") }}
             </div>    
         </form>

@@ -3,13 +3,28 @@
 {% block content %}
 
 <div class="row">
-            
+    <!-- show success flashes on top -->
+    {% with messages = get_flashed_messages(category_filter=["success"]) %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <span>{{ message }}</span>
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+</div>
+
+<div class="row">
     <div class="col">
         <p>
             <span>Profile Image</span>
-            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_profile_image')}}">Change</a>
+            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_profile_image', updateprofile=True, nextpage='tryon')}}">Change</a>
         </p>
-        <img src="{{ url_for('static', filename=profile_image)}}" class="img-fluid img-thumbnail">
+        <img src="{{ url_for('get_uploaded_image', filename=profile_image)}}" class="img-fluid img-thumbnail">
     </div>
     
     <div class="col">
@@ -17,18 +32,21 @@
             <span>Source Image</span>
             <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_source_image')}}">Try Next</a>
         </p>
-        <img src="{{ url_for('static', filename=source_image)}}" class="img-fluid img-thumbnail">
+        <img src="{{ url_for('get_uploaded_image', filename=source_image)}}" class="img-fluid img-thumbnail">
     </div>
 
     <div class="col">
         <p>
             <span>Result Image</span>
-            <a class="btn btn-outline-primary d-inline ml-3" href="#">Download</a>
+            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('download_file', filename=result_image)}}">Download</a>
+            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('get_result_image', filename=result_image)}}" target="_blank" rel="noopener noreferrer">View</a>
+
         </p>
-        <img src="{{ url_for('static', filename=result_image)}}" class="img-fluid img-thumbnail">
+        <img src="{{ url_for('get_result_image', filename=result_image)}}" class="img-fluid img-thumbnail">
         
-        {% with messages = get_flashed_messages(with_categories=true) %}
+        {% with messages = get_flashed_messages(with_categories=True,category_filter=["warning","danger"]) %}
             {% if messages %}
+                <span>Warning(s):</span>
                 {% for category, message in messages %}
                     <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
                         <span>{{ message }}</span>
