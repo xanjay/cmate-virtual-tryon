@@ -19,20 +19,28 @@
 </div>
 
 <div class="row">
+    <!-- tab view -->
     <div class="col">
-        <p>
-            <span>Profile Image</span>
-            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_profile_image', updateprofile=True, nextpage='tryon')}}">Change</a>
-        </p>
-        <img src="{{ url_for('get_uploaded_image', filename=profile_image)}}" class="img-fluid img-thumbnail">
-    </div>
-    
-    <div class="col">
-        <p>
-            <span>Source Image</span>
-            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_source_image')}}">Try Next</a>
-        </p>
-        <img src="{{ url_for('get_uploaded_image', filename=source_image)}}" class="img-fluid img-thumbnail">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+         <li class="nav-item">
+          <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="true">Profile Image</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="source-tab" data-toggle="tab" href="#source" role="tab" aria-controls="source" aria-selected="false">source Image</a>
+        </li>
+        <li class="nav-item">
+            <!-- <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('upload_profile_image', updateprofile=True, nextpage='tryon')}}">Update Profile</a> -->
+            <a class="btn btn-outline-primary d-inline ml-5" href="{{ url_for('upload_source_image')}}">Try Next</a>
+        </li>
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <img src="{{ url_for('get_uploaded_image', filename=profile_image)}}" class="img-fluid img-thumbnail">
+        </div>
+        <div class="tab-pane fade" id="source" role="tabpanel" aria-labelledby="source-tab">
+            <img src="{{ url_for('get_uploaded_image', filename=source_image)}}" class="img-fluid img-thumbnail">
+        </div>
+      </div>
     </div>
 
     <div class="col">
@@ -43,20 +51,21 @@
 
         </p>
         <img src="{{ url_for('get_result_image', filename=result_image)}}" class="img-fluid img-thumbnail">
-        
-        {% with messages = get_flashed_messages(with_categories=True,category_filter=["warning","danger"]) %}
-            {% if messages %}
-                <span>Warning(s):</span>
-                {% for category, message in messages %}
-                    <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
-                        <span>{{ message }}</span>
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                {% endfor %}
-            {% endif %}
-        {% endwith %}
+        <div>
+            {% with messages = get_flashed_messages(with_categories=True,category_filter=["warning","danger"]) %}
+                {% if messages %}
+                    <span>Warning(s):</span>
+                    {% for category, message in messages %}
+                        <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                            <span>{{ message }}</span>
+                            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    {% endfor %}
+                {% endif %}
+            {% endwith %}
+        </div>
         
     </div>
     

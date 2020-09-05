@@ -4234,3 +4234,593 @@ INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:15:44] "[37mGET /tryon/ HTTP/1.1[0
 INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:15:45] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
 INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:15:45] "[37mGET /result_images/result-2020-08-30-15-15-44.jpg HTTP/1.1[0m" 200 -
 INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:15:45] "[37mGET /uploaded_images/image-2020-08-30-15-14-58.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:19:07] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:19:08] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:19:10] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:19:10] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:19:10] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://www.bellacanvas.com/bella/product/large/6400cvc_2.jpg
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:19:31] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:20:02] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:20:02] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:20:02] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:24:52] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:24:53] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:24:53] "[37mGET /result_images/result-2020-08-30-15-24-52.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:24:56] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:28:20] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:28:20] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:28:20] "[37mGET /result_images/result-2020-08-30-15-28-19.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:28:22] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:22] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:22] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:22] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:22] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:39] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:39] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:39] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:39] "[37mGET /uploaded_images/image-2020-08-30-15-19-27.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:40] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:43] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:43] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:43] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:44] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:55] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:38:55] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://sc02.alicdn.com/kf/HTB1ZXTxRVXXXXbOXpXXq6xXFXXXe/230800424/HTB1ZXTxRVXXXXbOXpXXq6xXFXXXe.jpg_.webp
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:39:26] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:39:58] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:39:59] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:39:59] "[37mGET /uploaded_images/image-2020-08-30-15-39-24.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:39:59] "[37mGET /result_images/result-2020-08-30-15-39-58.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:40:45] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:40:45] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'e:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:42:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:42:57] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:42:59] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:42:59] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:42:59] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://cdn.shopify.com/s/files/1/0080/7324/8864/products/Summer-2019-Casual-Sleeveless-Maxi-Dress-Vintage-Loose-Women-Clothes-Beach-Sexy-Dress-Fashion-Elegant-High_be423209-17c1-46c7-95da-3971bcab4b1b_300x300.jpg?v=1571715302
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:43:19] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:43:48] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:43:48] "[37mGET /uploaded_images/image-2020-08-30-15-43-17.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:43:48] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:43:48] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:45:37] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:45:37] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:45:38] "[37mGET /result_images/result-2020-08-30-15-45-37.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:45:38] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:46:24] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:46:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:46:29] "[37mPOST /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:46:29] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:47:01] "[37mPOST /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:47:01] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://cdn.shopify.com/s/files/1/0154/8596/0292/products/product-image-1151407983_530x@2x.jpg?v=1579573358
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:47:17] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:47:48] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:47:48] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:47:48] "[37mGET /uploaded_images/image-2020-08-30-15-47-16.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:47:48] "[37mGET /result_images/result-2020-08-30-15-47-47.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:48:17] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:48:17] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://cdn.shopify.com/s/files/1/0042/8641/4961/products/natna-shop-clothes-style-four-s-fashion-coat-black-red-women-slim-elegant-jacket-female-work-wear-casaco-feminino-woman-clothes-office-clothing-7186287362161_1024x1024.jpg?v=1588849341
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:48:22] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:48:47] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:48:47] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:48:47] "[37mGET /uploaded_images/image-2020-08-30-15-48-21.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:48:47] "[37mGET /result_images/result-2020-08-30-15-48-47.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:55:26] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:55:26] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:59:11] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:59:11] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:59:11] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:59:12] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:59:12] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 15:59:12] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:01:24] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:01:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:01:24] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:02:24] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:02:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:02:24] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:03:15] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:03:15] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:03:15] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:03:57] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:03:57] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:03:58] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:04:31] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:04:31] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:04:31] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:04:54] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:04:54] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:04:54] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:13] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:13] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:13] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:47] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:47] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:48] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:50] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:50] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:06:57] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:00] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:56] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:56] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:56] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:58] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:58] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:07:59] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:08:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:08:01] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:08:06] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:08:06] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:09:28] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:09:28] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:09:28] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:23] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:23] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:23] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:24] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:26] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:28] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:28] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:29] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:33] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:10:33] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:11:39] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:11:39] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:11:40] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:11:49] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:11:49] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:11:50] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:08] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:08] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:08] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:10] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:10] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:11] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:11] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:16] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:16] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:39] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:39] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:39] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:50] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:50] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:50] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:51] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:51] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:52] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:52] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:52] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:52] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:57] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:57] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:58] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:58] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:58] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:12:58] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:09] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:09] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:09] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:10] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:10] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:10] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:21] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:21] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:21] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:24] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:24] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:25] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:26] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:27] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:29] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:29] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:29] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:56] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:56] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:57] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:57] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:57] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:57] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:58] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:58] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:58] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:58] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:58] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:13:58] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:02] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:02] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /static/css/base-template.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /uploaded_images/test12345n.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /uploaded_images/image-2020-08-30-15-48-21.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /result_images/result-2020-08-30-15-48-47.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /static/js/popper.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:03] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:07] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:07] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:07] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:07] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:07] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:08] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:21] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:21] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:21] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:49] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:49] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:14:49] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:15] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:15] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:15] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:16] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:16] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:16] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:16] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:16] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:16] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /static/css/base-template.css HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /static/js/bootstrap.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /static/js/popper.min.js HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /static/images/logo.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /uploaded_images/test12345n.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /uploaded_images/image-2020-08-30-15-48-21.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:17] "[37mGET /result_images/result-2020-08-30-15-48-47.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:18] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:20] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:20] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:20] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:20] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:20] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:20] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:55] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:55] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:15:55] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:10] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:10] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:10] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:11] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:11] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:11] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:22] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:22] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:23] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:24] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:24] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:24] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:16:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:01] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:01] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:01] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:11] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:11] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:12] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:21] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:21] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:21] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:29] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:30] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:30] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:30] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:30] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:31] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:36] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:36] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:36] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:36] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:36] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:37] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:45] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:45] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:45] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:58] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:58] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:18:58] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:19:25] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:19:25] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:19:25] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:00] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:00] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:00] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:08] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:08] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:08] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:20:26] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:21:24] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:21:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:21:25] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:19] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:19] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:19] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:20] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:20] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:20] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:20] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:20] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:22:21] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:24:10] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:24:10] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:24:10] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:24:15] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:24:15] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:24:15] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:42:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 16:42:15] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:13] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:13] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:16] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:16] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:16] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:19] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:19] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:20] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:20] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:20] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:22] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:23] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:24] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:24] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:24] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:26] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:26] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:28] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:28] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:28] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:30] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:31] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:31] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:31] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:29:36] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:32:47] "[37mGET /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:32:47] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:00] "[32mPOST /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:00] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:00] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:00] "[37mGET /uploaded_images/Women-3.png HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:04] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:04] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:04] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://s7g3.scene7.com/is/image/soloinvest/n00554A?$big_image_web$
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:53] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:59] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:59] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:59] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:33:59] "[37mGET /uploaded_images/image-2020-08-30-17-33-52.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:08] "[37mGET /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:08] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:15] "[32mPOST /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:15] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:15] "[37mGET /uploaded_images/result-2020-08-30-00-18-49_1.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:17] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:17] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:17] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://s7g3.scene7.com/is/image/soloinvest/n00554A?$big_image_web$
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:21] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:54] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:54] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:54] "[37mGET /uploaded_images/image-2020-08-30-17-34-20.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:34:54] "[37mGET /result_images/result-2020-08-30-17-34-54.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:22] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:22] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:28] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:28] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:29] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:34] "[37mGET /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:34] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:48] "[32mPOST /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:48] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:48] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:49] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:49] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:49] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://s7g3.scene7.com/is/image/soloinvest/n00554A?$big_image_web$
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:35:53] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:36:22] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:36:22] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:36:22] "[37mGET /uploaded_images/image-2020-08-30-17-35-53.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:36:22] "[37mGET /result_images/result-2020-08-30-17-36-22.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:36:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:36:54] "[37mGET /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:36:54] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:20] "[32mPOST /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:20] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:20] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:20] "[37mGET /uploaded_images/n00554A.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:21] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:21] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:21] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://s7g3.scene7.com/is/image/soloinvest/n00554A?$big_image_web$
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:37:34] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:38:09] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:38:09] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:38:09] "[37mGET /uploaded_images/image-2020-08-30-17-37-33.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:38:09] "[37mGET /result_images/result-2020-08-30-17-38-08.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:39:33] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:39:33] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://ichef.bbci.co.uk/news/1024/cpsprodpb/14537/production/_113355238_5c549d88-71b3-44cb-862c-02f2f8e4351e.jpg
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:39:36] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:40:02] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:40:02] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:40:03] "[37mGET /uploaded_images/image-2020-08-30-17-39-36.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:40:03] "[37mGET /result_images/result-2020-08-30-17-40-02.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:29] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:29] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://shop.jaipurlove.com/wp-content/uploads/2019/09/buy-yellow-women-tshirt-online-10110f.jpg
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:33] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:33] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:33] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://shop.jaipurlove.com/wp-content/uploads/2019/09/buy-yellow-women-tshirt-online-10110f.jpg
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:46] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:46] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:46] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://cdn.shopify.com/s/files/1/0373/5929/products/Taurus-Women-Tshirt-Grey_1800x.jpg?v=1571276541
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:41:56] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:42:23] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:42:23] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:42:23] "[37mGET /uploaded_images/image-2020-08-30-17-41-55.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:42:23] "[37mGET /result_images/result-2020-08-30-17-42-23.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\pose_estimator.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:44:33] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:44:33] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:44:34] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 17:44:35] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\pose_estimator.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 18:28:32] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 18:28:32] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 18:28:34] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 18:28:34] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [30/Aug/2020 18:28:34] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:17:50] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:17:50] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:19:29] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:19:29] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:19:29] "[37mGET /result_images/result-2020-08-31-01-19-28.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:23:42] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:23:42] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:23:48] "[37mGET /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:23:49] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:24:05] "[32mPOST /upload_profile_image/?updateprofile=True&nextpage=home HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:24:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:24:06] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:24:27] "[32mGET /upload_profile_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:24:27] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:24:27] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://contestimg.wish.com/api/webimage/5ba9d9c98d4c962b02ee25d0-large.jpg?cache_buster=39427e64ff25edf9c3a0db6d0bd37aff
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:24:31] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:25:25] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:25:25] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:25:25] "[37mGET /uploaded_images/image-2020-08-31-01-24-29.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:25:25] "[37mGET /result_images/result-2020-08-31-01-25-25.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:25:48] "[37mGET /upload_source_image/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:25:48] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:__init__:Downloading Imgae: https://cdn.shopify.com/s/files/1/0313/1539/4691/products/Women-Red-Black-Color-Block-Summer-Long-Dress-Plus-Size-Women-Clothes-Elegant-Office-Ladies-Work_15f1f61c-ba37-47e0-8954-fb7f2428e2a5_1200x.jpg?v=1581084468
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:25:57] "[32mPOST /upload_source_image/ HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:26:44] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:26:44] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:26:44] "[37mGET /uploaded_images/image-2020-08-31-01-25-56.jpg HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:26:44] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug: * Detected change in 'E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\cmate\\cmate_main.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 134-928-539
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:46: The name tf.GraphDef is deprecated. Please use tf.compat.v1.GraphDef instead.
+
+WARNING:tensorflow:From E:\Sanjay\mlprojects\virtual_try_on\src\cmate\segmentation\cloth_extractor.py:54: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:29:27] "[37mGET /tryon/ HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:29:27] "[33mGET /static/css/bootstrap/bootstrap.min.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:29:27] "[33mGET /result_images/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [31/Aug/2020 01:29:28] "[37mGET /static/favicon.ico HTTP/1.1[0m" 200 -

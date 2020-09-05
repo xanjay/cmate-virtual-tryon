@@ -16,7 +16,7 @@ import tensorflow as tf
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
 
 MODEL_NAME = 'frozen_inference_graph-110871.pb'
-MODEL_DIR = os.path.join(BASE_DIR, "models")
+MODEL_DIR = os.path.join(BASE_DIR, "models", "deeplab")
 MODEL_PATH = os.path.join(MODEL_DIR, MODEL_NAME)
 
 

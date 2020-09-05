@@ -63,7 +63,7 @@ def upload_source_image():
         if source_form.validate_on_submit():
             image_url = source_form.source_image_url.data
             # download image
-            app.logger.info("Downloading Imgae: "+image_url)
+            app.logger.info("Downloading image: "+image_url)
             source_image = download_image(image_url, 
                            dest_folder=str(Path(app_config["FILES_DIR"])/app_config['UPLOAD_FOLDER']))
             if "404" in source_image:
@@ -74,11 +74,11 @@ def upload_source_image():
             # flash("Success:"+image_url, 'success')
             return redirect(url_for('tryon'))
 
-    profile_image = None
-    if session_alive():
-        profile_image = session['profile_image']
+    source_image = None
+    if 'source_image' in session.keys():
+        source_image = session['source_image']
     return render_template('upload_source_image.html',
-                           form=source_form, profile_image=profile_image)
+                           form=source_form, source_image=source_image)
 
 
 @app.route('/tryon/', methods=['GET', 'POST'])
@@ -120,7 +120,6 @@ def tryon():
 
 @app.route('/download/<path:filename>')
 def download_file(filename):
-    flash("Successfully downloaded !", 'success')
     return send_from_directory(str(Path(app_config["FILES_DIR"])/app_config['RESULT_FOLDER']),
                                secure_filename(filename), as_attachment=True)
 
@@ -138,8 +137,4 @@ def get_result_image(filename):
 
 
 if __name__ == '__main__':
-    import logging
-    logging.basicConfig(filename=app.root_path +
-                        '/logs/cmate.log', level=logging.INFO)
-
     app.run()

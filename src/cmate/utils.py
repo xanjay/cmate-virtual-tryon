@@ -109,7 +109,7 @@ def blend_images(source_seg, source_shoulder, dest, dest_shoulder):
         dest_square = dest[dest.shape[0]-dh:dest.shape[0],
                            dest.shape[1]-dw:dest.shape[1], :]
         gray = cv.cvtColor(source_square, cv.COLOR_BGR2GRAY)
-        mask = np.where(cv.cvtColor(gray, cv.COLOR_BGR2GRAY) != 0)
+        mask = np.where(gray != 0)
         dest_square[mask] = source_square[mask]
         dest[dest.shape[0]-dh:dest.shape[0],
              dest.shape[1]-dw:dest.shape[1], :] = dest_square
