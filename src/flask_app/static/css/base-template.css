@@ -1,11 +1,28 @@
-main {
-  padding-top: 5rem;
+html,body {
+  padding:0;
+  margin:0;
+  height:100%;
 }
 
-.footer {
-  height: 20px;
-  padding-top: 80% !important;
+.main {
+  position: relative;
+  min-height: 100%;
 }
-/* .body {
-  height: 100% !important
-} */
+
+.container {
+  padding-top: 5%;
+  padding-bottom: 9rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 9rem;
+  background: rgb(245, 245, 245);
+}
+
+.recent-images--hover:hover {
+  border: solid 2px #17a2b8;
+  padding:-2px;
+}

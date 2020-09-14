@@ -9,6 +9,10 @@ from matplotlib import pyplot as plt
 import numpy as np
 from PIL import Image
 
+# silent warnings
+import os
+os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
+
 # %tensorflow_version 1.x
 import tensorflow as tf
 

@@ -21,9 +21,9 @@ def download_image(image_url, dest_folder):
         return "Error during Image download:\n" + str(e)
 
 
-def session_alive():
+def session_alive(profile_dir):
     " check if user has already uploaded profile image"
     if 'profile_image' in session.keys():
-        if (Path(app_config["FILES_DIR"])/app_config["UPLOAD_FOLDER"]/session['profile_image']).is_file():
+        if (Path(profile_dir)/session['profile_image']).is_file():
             return True
     return False

@@ -22,85 +22,86 @@
   </head>
 
   <body>
+    <div class="main">
+      <!-- navbar -->
+      <nav class="navbar navbar-expand-md bg-white fixed-top">
+        <a class="navbar-brand" href="/">
+          <img src="{{ url_for('static', filename='images/logo.png')}}" width=24 height=24 class="rounded" alt="cmate">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <nav class="navbar navbar-expand-md bg-white fixed-top">
-      <a class="navbar-brand" href="/">
-        <img src="{{ url_for('static', filename='images/logo.png')}}" width=24 height=24 class="rounded" alt="cmate">
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">API</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="{{ url_for('upload_profile_image', updateprofile=True, nextpage='home')}}">update Profile Image</a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <main role="main" class="container">
-
-    {% block content %}
-    {% endblock %}
-
-    </main><!-- /.container -->
-
-    <footer class="container-fluid py-3">
-      <div class="row">
-        <div class="col-12 col-md">
-          <img src="{{ url_for('static', filename='images/logo.png')}}" width="24" height="24" class="rounded">
-          <small class="d-block mb-3 text-muted">&copy; 2020</small>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About CMate</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Features</a></li>
-            <li><a class="text-muted" href="#">Random feature</a></li>
-            <li><a class="text-muted" href="#">Use Cases</a></li>
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">API</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="https://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Profile</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="{{ url_for('upload_profile_image', updateprofile=True, nextpage='home')}}">update Profile Image</a>
+              </div>
+            </li>
           </ul>
         </div>
-        <div class="col-6 col-md">
-          <h5>Resources</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Resource</a></li>
-            <li><a class="text-muted" href="#">FAQ</a></li>
-            <li><a class="text-muted" href="#">Blog</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>Social</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Github</a></li>
-            <li><a class="text-muted" href="#">StackOverflow</a></li>
-            <li><a class="text-muted" href="#">LinkedIn</a></li>
-          </ul>
-        </div>
-        <div class="col-6 col-md">
-          <h5>About Us</h5>
-          <ul class="list-unstyled text-small">
-            <li><a class="text-muted" href="#">Team</a></li>
-            <li><a class="text-muted" href="#">Locations</a></li>
-            <li><a class="text-muted" href="#">Privacy</a></li>
-          </ul>
-        </div>
-      </div>
-    </footer>
+      </nav>
+      <!-- body-content -->
+      <main role="main" class="container">
 
+      {% block content %}
+      {% endblock %}
+
+      </main><!-- /.container -->
+      <!-- footer -->
+      <footer class="container-fluid py-3">
+        <div class="row">
+          <div class="col-12 col-md">
+            <img src="{{ url_for('static', filename='images/logo.png')}}" width="24" height="24" class="rounded">
+            <small class="d-block mb-3 text-muted">&copy; 2020</small>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About CMate</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Features</a></li>
+              <li><a class="text-muted" href="#">Random feature</a></li>
+              <li><a class="text-muted" href="#">Use Cases</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Resources</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Resource</a></li>
+              <li><a class="text-muted" href="#">FAQ</a></li>
+              <li><a class="text-muted" href="#">Blog</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>Social</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Github</a></li>
+              <li><a class="text-muted" href="#">StackOverflow</a></li>
+              <li><a class="text-muted" href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-md">
+            <h5>About Us</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="text-muted" href="#">Team</a></li>
+              <li><a class="text-muted" href="#">Locations</a></li>
+              <li><a class="text-muted" href="#">Privacy</a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="{{ url_for('static', filename='js/jquery-3.5.1.min.js')}}"></script>
     <script>window.jQuery || document.write('<script src="{{ url_for("static", filename="js/jquery-slim.min.js")}}"><\/script>')</script>
     <script src="{{ url_for('static', filename='js/popper.min.js')}}"></script>
     <script src="{{ url_for('static', filename='js/bootstrap.min.js')}}"></script>

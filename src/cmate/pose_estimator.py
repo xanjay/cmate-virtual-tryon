@@ -5,13 +5,20 @@ import cv2 as cv
 import math
 import os
 
-# openpose body_25
+# choose one of "mpi" or "body_24" openpose model 
+model = "body_25"
 BASE_DIR = os.path.dirname(os.path.realpath(__file__))
-MODEL_DIR = os.path.join(BASE_DIR, "segmentation", "models", "mpii_openpose_body25")
-protoFile = os.path.join(MODEL_DIR, "pose_deploy.prototxt")
-weightsFile = os.path.join(MODEL_DIR, "pose_iter_584000.caffemodel")
+MODEL_DIR = os.path.join(BASE_DIR, "segmentation", "models")
 
-THRESHOLD = 0.1
+if model == "mpi":
+    protoFile = os.path.join(MODEL_DIR, "pose_deploy_linevec.prototxt")
+    weightsFile = os.path.join(MODEL_DIR, "pose_iter_160000.caffemodel")
+    THRESHOLD = 0.3
+else:
+    protoFile = os.path.join(MODEL_DIR, "mpii_openpose_body25", "pose_deploy.prototxt")
+    weightsFile = os.path.join(MODEL_DIR, "mpii_openpose_body25", "pose_iter_584000.caffemodel")
+    THRESHOLD = 0.1
+
 HEIGHT = 368
 WIDTH = 368
 SCALE = 0.003922  # 1.0/255
@@ -37,20 +44,22 @@ def find_rotation_angle(a, b):
 
 
 class PoseEstimator:
-    def __init__(self, frame, origin="source"):
+    def __init__(self, frame):
         """
         Initialize estimator
         frame: image array
         """
-        self.origin = origin
         self.frame = frame
         self.net = cv.dnn.readNetFromCaffe(protoFile, weightsFile)
-        self.shoulder_points = self.get_shoulder_loc()
+        self.shoulder_points = []
 
-    def get_shoulder_loc(self):
+    def get_shoulder_points(self):
         """
         return shoulder locations.
         """
+        if len(self.shoulder_points) > 0:
+            return self.shoulder_points
+
         frameWidth = self.frame.shape[1]
         frameHeight = self.frame.shape[0]
         inp = cv.dnn.blobFromImage(self.frame, SCALE, (WIDTH, HEIGHT),
@@ -80,11 +89,12 @@ class PoseEstimator:
         return shoulder_points
 
     def get_shoulder_details(self):
+        # get shoulder points
+        self.shoulder_points = self.get_shoulder_points()
         # step 3: get shoulder width and rotation angle
         # raises: shoulder not found.
         if len(self.shoulder_points) < 2:
-            # print(self.origin+" image w/o shoulder.")
-            raise Exception(self.origin+" image without shoulder.")
+            raise Exception("image without shoulder.")
 
         distance = self.shoulder_points[1][0] - self.shoulder_points[0][0]
         rotation_angle = find_rotation_angle(self.shoulder_points[0], self.shoulder_points[1])
@@ -93,6 +103,8 @@ class PoseEstimator:
 
     def visualize_pose(self):
         try:
+            self.shoulder_points = self.get_shoulder_points()
+            
             import matplotlib.pyplot as plt
             plt.figure(figsize=(10,5))
             # draw points

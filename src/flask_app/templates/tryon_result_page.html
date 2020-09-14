@@ -35,26 +35,35 @@
       </ul>
       <div class="tab-content" id="myTabContent">
         <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-            <img src="{{ url_for('get_uploaded_image', filename=profile_image)}}" class="img-fluid img-thumbnail">
+            <img src="{{ url_for('get_profile_image', filename=profile_image)}}" class="img-fluid img-thumbnail">
         </div>
         <div class="tab-pane fade" id="source" role="tabpanel" aria-labelledby="source-tab">
-            <img src="{{ url_for('get_uploaded_image', filename=source_image)}}" class="img-fluid img-thumbnail">
+            <img src="{{ url_for('get_source_image', filename=source_image)}}" class="img-fluid img-thumbnail">
         </div>
       </div>
     </div>
 
     <div class="col">
-        <p>
-            <span>Result Image</span>
-            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('download_file', filename=result_image)}}">Download</a>
-            <a class="btn btn-outline-primary d-inline ml-3" href="{{ url_for('get_result_image', filename=result_image)}}" target="_blank" rel="noopener noreferrer">View</a>
-
-        </p>
-        <img src="{{ url_for('get_result_image', filename=result_image)}}" class="img-fluid img-thumbnail">
-        <div>
+        <!-- show loading until result -->
+        <div id="js-spinner">
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                Please wait ...
+        </div>
+        <meta id='js-result' data-name="{{result_image}}">
+        <!-- result hidden by default -->
+        <div id='js-hidden-result' hidden>
+            <p>
+                <span>Result Image</span>
+                <a class="btn btn-outline-primary d-inline ml-3" id="download-result" href="#">Download</a>
+                <a class="btn btn-outline-primary d-inline ml-3 load-result" href="#" target="_blank" rel="noopener noreferrer">View</a>
+            </p>
+            <img src="#" class="img-fluid img-thumbnail load-result">
+        </div>
+        <!-- display issues -->
+        <div id="js-alert">
             {% with messages = get_flashed_messages(with_categories=True,category_filter=["warning","danger"]) %}
                 {% if messages %}
-                    <span>Warning(s):</span>
+                    <span>Issue(s):</span>
                     {% for category, message in messages %}
                         <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
                             <span>{{ message }}</span>
@@ -71,4 +80,50 @@
     
 </div>
 
+{% endblock %}
+
+
+{% block script %}
+<script>
+    $('document').ready(function(){
+        // check if result exists
+        const result = $('#js-result').data();
+        console.log(result);
+        
+        if (result['name'] == 'None'){
+            // api call
+            $.ajax({
+                type: 'POST',
+                url: "/tryon_result/",
+                data: {},
+                dataType: "json",
+                success: function(data){
+                    show_result(data);
+                }
+            });
+            // show_result({"result_image":"sdsd"})
+        }
+        else{
+            // show result
+            $('#js-spinner').attr('hidden','True');
+            $('#js-hidden-result').removeAttr('hidden');
+            $('a.load-result').attr('href',`{{ url_for('get_result_image', filename=result_image)}}`);
+            $('img.load-result').attr('src',`{{ url_for('get_result_image', filename=result_image)}}`);
+            $('#download-result').attr('href',`{{ url_for('download_file', filename=result_image)}}`);
+        };
+        // call after ajax call
+        function show_result(data) {
+            console.log(data);
+            $('#js-spinner').attr('hidden','True');
+            $('#js-hidden-result').removeAttr('hidden');            
+            $('a.load-result').attr('href','/result_images/'+data.result_image);
+            $('img.load-result').attr('src','/result_images/'+data.result_image);
+            $('#download-result').attr('href','/download_file/'+data.result_image);
+            // refresh warning alert div
+            $("#js-alert").load(location.href+" #js-alert>*");
+
+        }
+        
+    })
+</script>
 {% endblock %}

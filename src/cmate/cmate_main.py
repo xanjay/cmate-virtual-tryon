@@ -14,8 +14,7 @@ class CMate:
     def __init__(self, source_img, dest_img):
         self.source_img = source_img
         self.dest_img = dest_img
-        self.dest_pose_estimator = PoseEstimator(
-            cv.imread(self.dest_img), "profile")
+        self.dest_pose_estimator = PoseEstimator(cv.imread(self.dest_img))
         self.source_pose_estimator = None  # initialize after cloth extraction
         self.error_list = []
 
@@ -39,21 +38,23 @@ class CMate:
 
         try:
             # initialize source pose estimator
-            self.source_pose_estimator = PoseEstimator(source_img, "source")
+            self.source_pose_estimator = PoseEstimator(source_img)
             source_distance, source_angle = self.source_pose_estimator.get_shoulder_details()
-            source_points = self.source_pose_estimator.shoulder_points
+            source_points = self.source_pose_estimator.get_shoulder_points()
         except Exception as e:
             print(str(e))
-            self.error_list.append(str(e))
             # if no source shoulder points detected
+            self.error_list.append("Issue in source image:"+str(e))
             source_points, source_distance, source_angle = custom_shoulder_locator.get_shoulder_details_mannual(cloth_seg)
 
         return source_points, source_distance, source_angle
 
     def apply_cloth(self):
         # step 1: get dest shoulder distance and rotation angle
-        dest_distance, dest_angle = self.dest_pose_estimator.get_shoulder_details()
-
+        try:
+            dest_distance, dest_angle = self.dest_pose_estimator.get_shoulder_details()
+        except Exception as e:
+            raise Exception("Issue in profile image:"+str(e))
         # step 2: get source image and segmented cloth
         source_img, source_seg = self.cloth_segmentation()
 
@@ -93,16 +94,20 @@ class CMate:
                                                      rotation_angle)
 
         # step 5.2: remove border
-        mask, rotated_seg = utils.remove_segmentation_border(rotated_seg, cv)
+        _, rotated_seg = utils.remove_segmentation_border(rotated_seg)
 
         # step 6: blend dest image and extracted cloth
         dest_frame = cv.imread(self.dest_img)
-        dest_points = self.dest_pose_estimator.shoulder_points
+        dest_points = self.dest_pose_estimator.get_shoulder_points()
         try:
             final_img = utils.blend_images(
                 rotated_seg, source_points, dest_frame, dest_points)
-        except Exception:
-            raise Exception("Issue in Blending Images.")
+        except AssertionError:
+            print("Assertion Error in blending images.")
+            raise Exception("Issue in blending Images.")
+        except Exception as e:
+            print(str(e))
+            raise Exception("Issue in blending Images.")
         return final_img, self.error_list
 
 

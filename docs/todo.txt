@@ -1,0 +1,18 @@
+1. setup cache
+2. clear cache
+3. show recently used images
+4. Other docs
+
+
+//make dirs at first
+logo
+gif sample image
+create content for footer links
+sample images for source images
+fix tryon result page loading(center and more engaging)
+
+deployment:
+make files dir and copy sample images
+cronjob for cleaning files dir
+nginx deployment
+deploy to app engine

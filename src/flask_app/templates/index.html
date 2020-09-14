@@ -5,7 +5,7 @@
 <div class="row">
   <div class="col-6 col-md">
     {% if profile_image %}
-      <img src="{{ url_for('get_uploaded_image', filename=profile_image)}}" class="img-fluid">
+      <img src="{{ url_for('get_profile_image', filename=profile_image)}}" class="img-fluid">
     {% else %}
       <img src="{{ url_for('static', filename='images/samples/sample_profile1.jpg')}}" class="img-fluid">
     {% endif %}

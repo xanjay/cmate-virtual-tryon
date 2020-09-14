@@ -33,7 +33,7 @@ def rotate_shoulder_points(frame, shoulder_points, angle):
     return transformed_points.astype('int32')
 
 
-def remove_segmentation_border(img, cv2):
+def remove_segmentation_border(img):
     # find outermost cloth contour
     blur_image = cv.GaussianBlur(img, (5, 5), 0)
     gray_img = cv.cvtColor(blur_image, cv.COLOR_BGR2GRAY)
@@ -89,38 +89,68 @@ def crop_square(img):
 
 
 def blend_images(source_seg, source_shoulder, dest, dest_shoulder):
-    "Blend source_seg to dest frame. Start from right shoulder of dest."
-    # step 5: crop segmentaton
+    """
+    Blend source cloth segmentation to profile image.
+    Crop cloth segmentation and blend it to profile image starting from 
+    corresponding top-right corner of profile image.
+    
+    :params
+    source_seg: cloth segmentation with black background(source)
+    source_shoulder: shoulder coordination of source image
+    dest: profile image (destination)
+    dest_shoulder: shoulder coordination of profile image
+    """
+    # crop segmentaton cloth from source image
     start_crop, crop_seg = crop_square(source_seg)
 
-    # calc distance from startcrop to right shoulder
+    # calc distance from top-right corner to right shoulder point
     right_shoulder = source_shoulder[0]
     backoff = [right_shoulder[1]-start_crop[0],
                right_shoulder[0]-start_crop[1]]  # row, col
     # print(backoff)
+    assert backoff[0]>0 and backoff[1]>0
 
+    # calc dest frame top-right location
+    top_h, top_w = (dest_shoulder[0][1]-backoff[0]) + 10, dest_shoulder[0][0]-backoff[1]
+
+    # left-trim cloth segmentation if top-right point is outside of profile image
+    roi_x = roi_y = 0 # (x=row, y=col)
+    if top_h < 0:
+        roi_x = -top_h
+        top_h = 0
+    if top_w < 0:
+        roi_y = -top_w
+        top_w = 0
+
+    # shape of source frame
+    sh, sw = crop_seg.shape[0]-roi_x, crop_seg.shape[1]-roi_y
+
+    # calculate shape of destination frame in profile image
+    dh = dest.shape[0] - top_h
+    dw = dest.shape[1] - top_w
+
+    # calc ROI shape
+    roi_h, roi_w = sh, sw
+    if dh < sh:
+        roi_h = dh
+    if dw < sw:
+        roi_w = dw
+    
+    # if destination is smaller than source
+    # if dh < sh or dw < sw:
+    #     roi_h, roi_w = min(dh,sh), min(dw,sw)
+    # else:
+    #     roi_h, roi_w = sh, sw
+    
     # blend
-    sh, sw = crop_seg.shape[0], crop_seg.shape[1]
-    dh = dest.shape[0] - (dest_shoulder[0][1]-backoff[0]) + 10
-    dw = dest.shape[1] - (dest_shoulder[0][0]-backoff[1])
-
-    if dh < sh or dw < sw:
-        source_square = crop_seg[:dh, :dw, :]
-        dest_square = dest[dest.shape[0]-dh:dest.shape[0],
-                           dest.shape[1]-dw:dest.shape[1], :]
-        gray = cv.cvtColor(source_square, cv.COLOR_BGR2GRAY)
-        mask = np.where(gray != 0)
-        dest_square[mask] = source_square[mask]
-        dest[dest.shape[0]-dh:dest.shape[0],
-             dest.shape[1]-dw:dest.shape[1], :] = dest_square
-    else:
-        source_square = crop_seg[:, :, :]
-        dest_square = dest[dest.shape[0]-dh:dest.shape[0] -
-                           dh+sh, dest.shape[1]-dw:dest.shape[1]-dw+sw, :]
-        gray = cv.cvtColor(source_square, cv.COLOR_BGR2GRAY)
-        mask = np.where(gray != 0)
-        # print(mask)
-        dest_square[mask] = source_square[mask]
-        dest[dest.shape[0]-dh:dest.shape[0]-dh+sh,
-             dest.shape[1]-dw:dest.shape[1]-dw+sw, :] = dest_square
+    source_square = crop_seg[roi_x:roi_x+roi_h, roi_y:roi_y+roi_w, :]
+    # crop dest square
+    dest_square = dest[top_h:top_h+roi_h, top_w:top_w+roi_w, :]
+    # extract cloth mask (w/o black background) and apply mask
+    gray = cv.cvtColor(source_square, cv.COLOR_BGR2GRAY)
+    mask = np.where(gray != 0)
+    dest_square[mask] = source_square[mask]
+    # merge dest square back to profile image
+    dest[top_h:top_h+roi_h, top_w:top_w+roi_w, :] = dest_square
+    
     return dest

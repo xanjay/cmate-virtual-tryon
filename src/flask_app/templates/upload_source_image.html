@@ -10,7 +10,7 @@
 <div class="row">
     <div class="col-6 col-md">
         {% if source_image %}
-          <img src="{{ url_for('get_uploaded_image', filename=source_image)}}" class="img-fluid">
+          <img src="{{ url_for('get_source_image', filename=source_image)}}" class="img-fluid">
         {% else %}
           <img src="{{ url_for('static', filename='images/samples/sample_source1.jpg')}}" class="img-fluid">
         {% endif %}
@@ -38,7 +38,7 @@
             <!-- upload source image -->
             <p>
             <div class="form-group">
-                <label>Upload Image containing source cloth.</label><br>
+                <label>Paste Image URL containing source cloth.</label><br>
                 {% if form.source_image_url.errors %}
                     {{form.source_image_url(class="form-control is-invalid", accept="image/*")}}
                     <div class="invalid-feedback">
@@ -49,16 +49,20 @@
                 {% else %}
                     {{form.source_image_url(class="form-control", accept="image/*")}}
                 {% endif %}
-                <small id="sourceImageHelp" class="form-text text-muted">Best when cloth is fully seen in image.</small>
+                <small id="sourceImageHelp" class="form-text text-muted">Tip: Best when cloth is fully seen in image.</small>
             </div>
             </p>
+            <!-- show recently used source images -->
+            <section class="js-recent-images">
+
+            </section>
             <div>
                 {{ form.submit(class="btn btn-outline-info", disabled="True") }}
             </div>
             <!-- show loading on submit -->
             <p hidden class="loader">
                 <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Please Wait...
+                Loading Source image...
             </p>
             
         </form>
@@ -88,6 +92,27 @@
         $("#submit").click(function() {
             $("p.loader").removeAttr("hidden");
         });
+    });
+
+    $('document').ready(function(){
+        recent_image_section = $('section.js-recent-images')
+        // api call for recently used source images
+        $.ajax({
+                    type: "GET",
+                    url: "/recent_source_images/",
+                    data: {},
+                    dataType: "json",
+                    success: function(data){
+                        recent_image_section.append("<label style='display:block;'>Recently Used:</label>")
+                        const images_list = data["recent_source_images"]
+                        for (var i=0; i<images_list.length; i++){
+                            var $img =  $("<img>", {"class": "recent-images--hover my-2 mx-1 rounded img-fluid", "style": "height:50px;"});
+                            $img.attr('src', '/source_images/'+images_list[i])
+                            var $a_tag = $("<a>", {"href":"/pick_source_image/"+images_list[i] })
+                            recent_image_section.append($a_tag.append($img))
+                        }
+                    }
+                });
     })
 </script>
 {% endblock %}
