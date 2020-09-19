@@ -7,10 +7,10 @@
         {% if profile_image %}
             <img src="{{ url_for('get_profile_image', filename=profile_image)}}" class="img-fluid">
         {% else %}
-            <img src="{{ url_for('static', filename='images/samples/sample_profile1.jpg')}}" class="img-fluid">
+            <img src="{{ url_for('static', filename='images/samples/profile_images/sample-profile-image1.jpg')}}" class="img-fluid">
         {% endif %}    </div>
     <div class="col-6">
-        <h1 class="display-4">Virtual Clothing Try On</h1>
+        <h1 class="display-4">CMate:Virtual Clothing Try On</h1>
         <form method="POST" action="" enctype="multipart/form-data">
             {{ form.hidden_tag() }}
             <!-- upload profile image -->
@@ -30,16 +30,17 @@
                 <small id="profilehelp" class="form-text text-muted">Tip: use portrait image with normal pose for best experience.</small>
             </div>
             </p>
-            <!-- show sample profile images -->
-            <section class="js-sample-images">
-
-            </section>
             
             <div class="form-group">
                 <a class="btn btn-outline-info" href="{{ url_for('home')}}">Back</a>
                 {{ form.submit(class="btn btn-outline-info", disabled="True") }}
             </div>    
         </form>
+
+        <!-- show sample profile images -->
+        <section class="js-sample-images">
+
+        </section>
         
     </div>
 
@@ -68,7 +69,7 @@
                     data: {},
                     dataType: "json",
                     success: function(data){
-                        sample_image_section.append("<label style='display:block;'>Sample Profile Images(Pick One):</label>")
+                        sample_image_section.append("<label style='display:block;'>Sample Profile Images (Pick One):</label>")
                         const images_list = data["sample_profile_images"]
                         for (var i=0; i<images_list.length; i++){
                             var $img =  $("<img>", {"class": "recent-images--hover my-2 mx-1 rounded img-fluid", "style": "height:50px;"});

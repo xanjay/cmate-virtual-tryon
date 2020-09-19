@@ -9,6 +9,6 @@ def set_cache(key, value):
     cache[key] = value
 
 def clear_cache():
-    keys = cache.keys()
-    for i in range(len(cache), CACHE_SIZE):
+    keys = list(cache.keys())
+    for i in range(len(keys), CACHE_SIZE, -1):
         del cache[keys[i]]

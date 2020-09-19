@@ -45,7 +45,7 @@
 
     <div class="col">
         <!-- show loading until result -->
-        <div id="js-spinner">
+        <div id="js-spinner" style="text-align: center; padding: 50% 0;">
             <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                 Please wait ...
         </div>
@@ -55,9 +55,9 @@
             <p>
                 <span>Result Image</span>
                 <a class="btn btn-outline-primary d-inline ml-3" id="download-result" href="#">Download</a>
-                <a class="btn btn-outline-primary d-inline ml-3 load-result" href="#" target="_blank" rel="noopener noreferrer">View</a>
+                <a class="btn btn-outline-primary d-inline ml-3 js-load-result" href="#" target="_blank" rel="noopener noreferrer">View</a>
             </p>
-            <img src="#" class="img-fluid img-thumbnail load-result">
+            <img src="#" class="img-fluid img-thumbnail js-load-result">
         </div>
         <!-- display issues -->
         <div id="js-alert">
@@ -85,12 +85,13 @@
 
 {% block script %}
 <script>
-    $('document').ready(function(){
+    $('document').ready(function(e){
         // check if result exists
         const result = $('#js-result').data();
         console.log(result);
         
         if (result['name'] == 'None'){
+            e.preventDefault()
             // api call
             $.ajax({
                 type: 'POST',
@@ -107,8 +108,8 @@
             // show result
             $('#js-spinner').attr('hidden','True');
             $('#js-hidden-result').removeAttr('hidden');
-            $('a.load-result').attr('href',`{{ url_for('get_result_image', filename=result_image)}}`);
-            $('img.load-result').attr('src',`{{ url_for('get_result_image', filename=result_image)}}`);
+            $('a.js-load-result').attr('href',`{{ url_for('get_result_image', filename=result_image)}}`);
+            $('img.js-load-result').attr('src',`{{ url_for('get_result_image', filename=result_image)}}`);
             $('#download-result').attr('href',`{{ url_for('download_file', filename=result_image)}}`);
         };
         // call after ajax call
@@ -116,8 +117,8 @@
             console.log(data);
             $('#js-spinner').attr('hidden','True');
             $('#js-hidden-result').removeAttr('hidden');            
-            $('a.load-result').attr('href','/result_images/'+data.result_image);
-            $('img.load-result').attr('src','/result_images/'+data.result_image);
+            $('a.js-load-result').attr('href','/result_images/'+data.result_image);
+            $('img.js-load-result').attr('src','/result_images/'+data.result_image);
             $('#download-result').attr('href','/download_file/'+data.result_image);
             // refresh warning alert div
             $("#js-alert").load(location.href+" #js-alert>*");

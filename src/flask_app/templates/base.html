@@ -24,7 +24,7 @@
   <body>
     <div class="main">
       <!-- navbar -->
-      <nav class="navbar navbar-expand-md bg-white fixed-top">
+      <nav class="navbar navbar-light bg-white navbar-expand-md fixed-top">
         <a class="navbar-brand" href="/">
           <img src="{{ url_for('static', filename='images/logo.png')}}" width=24 height=24 class="rounded" alt="cmate">
         </a>
@@ -63,36 +63,27 @@
             <img src="{{ url_for('static', filename='images/logo.png')}}" width="24" height="24" class="rounded">
             <small class="d-block mb-3 text-muted">&copy; 2020</small>
           </div>
-          <div class="col-6 col-md">
-            <h5>About CMate</h5>
-            <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Features</a></li>
-              <li><a class="text-muted" href="#">Random feature</a></li>
-              <li><a class="text-muted" href="#">Use Cases</a></li>
-            </ul>
-          </div>
+
           <div class="col-6 col-md">
             <h5>Resources</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Resource</a></li>
-              <li><a class="text-muted" href="#">FAQ</a></li>
-              <li><a class="text-muted" href="#">Blog</a></li>
+              <li><a class="text-muted" href="{{ url_for ('footer', link='how-to-use.html')}}">How to use</a></li>
+              <li><a class="text-muted" href="{{ url_for ('footer', link='guidelines.html')}}">Guidelines</a></li>
+              <li><a class="text-muted" href="{{ url_for ('footer', link='faq.html')}}">FAQ</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
             <h5>Social</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Github</a></li>
-              <li><a class="text-muted" href="#">StackOverflow</a></li>
-              <li><a class="text-muted" href="#">LinkedIn</a></li>
+              <li><a class="text-muted" href="https://github.com/xanjay" target="_blank">Github</a></li>
+              <li><a class="text-muted" href="https://stackoverflow.com/users/9924439/xanjay" target="_blank">StackOverflow</a></li>
+              <li><a class="text-muted" href="https://www.linkedin.com/in/sanjay-parajuli/" target="_blank">LinkedIn</a></li>
             </ul>
           </div>
           <div class="col-6 col-md">
-            <h5>About Us</h5>
+            <h5>Company</h5>
             <ul class="list-unstyled text-small">
-              <li><a class="text-muted" href="#">Team</a></li>
-              <li><a class="text-muted" href="#">Locations</a></li>
-              <li><a class="text-muted" href="#">Privacy</a></li>
+              <li><a class="text-muted" href="{{ url_for ('footer', link='about-cmate.html')}}">About CMate</a></li>
             </ul>
           </div>
         </div>

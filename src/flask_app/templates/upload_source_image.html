@@ -12,12 +12,12 @@
         {% if source_image %}
           <img src="{{ url_for('get_source_image', filename=source_image)}}" class="img-fluid">
         {% else %}
-          <img src="{{ url_for('static', filename='images/samples/sample_source1.jpg')}}" class="img-fluid">
+          <img src="{{ url_for('static', filename='images/samples/source_images/sample-source-image3.jpg')}}" class="img-fluid">
         {% endif %}
       </div>
 
     <div class="col-6 col-md">
-        <h1 class="display-4">Virtual Clothing Try On</h1>
+        <h1 class="display-4">CMate:Virtual Clothing Try On</h1>
 
         <!-- flash messages -->
         {% with messages = get_flashed_messages(with_categories=true) %}
@@ -52,10 +52,7 @@
                 <small id="sourceImageHelp" class="form-text text-muted">Tip: Best when cloth is fully seen in image.</small>
             </div>
             </p>
-            <!-- show recently used source images -->
-            <section class="js-recent-images">
-
-            </section>
+            
             <div>
                 {{ form.submit(class="btn btn-outline-info", disabled="True") }}
             </div>
@@ -66,6 +63,10 @@
             </p>
             
         </form>
+        <!-- show sample source images -->
+        <section class="js-sample-images">
+
+        </section>
         
     </div>
 
@@ -95,21 +96,21 @@
     });
 
     $('document').ready(function(){
-        recent_image_section = $('section.js-recent-images')
-        // api call for recently used source images
+        sample_image_section = $('section.js-sample-images')
+        // api call for sample source images
         $.ajax({
                     type: "GET",
-                    url: "/recent_source_images/",
+                    url: "/sample_source_images/",
                     data: {},
                     dataType: "json",
                     success: function(data){
-                        recent_image_section.append("<label style='display:block;'>Recently Used:</label>")
-                        const images_list = data["recent_source_images"]
+                        sample_image_section.append("<label style='display:block;'>Sample Images (Pick One):</label>")
+                        const images_list = data["sample_source_images"]
                         for (var i=0; i<images_list.length; i++){
                             var $img =  $("<img>", {"class": "recent-images--hover my-2 mx-1 rounded img-fluid", "style": "height:50px;"});
                             $img.attr('src', '/source_images/'+images_list[i])
                             var $a_tag = $("<a>", {"href":"/pick_source_image/"+images_list[i] })
-                            recent_image_section.append($a_tag.append($img))
+                            sample_image_section.append($a_tag.append($img))
                         }
                     }
                 });

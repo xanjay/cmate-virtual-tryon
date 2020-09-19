@@ -97,9 +97,9 @@ class PoseEstimator:
             raise Exception("image without shoulder.")
 
         distance = self.shoulder_points[1][0] - self.shoulder_points[0][0]
-        rotation_angle = find_rotation_angle(self.shoulder_points[0], self.shoulder_points[1])
+        # rotation_angle = find_rotation_angle(self.shoulder_points[0], self.shoulder_points[1])
 
-        return distance, rotation_angle
+        return distance
 
     def visualize_pose(self):
         try:

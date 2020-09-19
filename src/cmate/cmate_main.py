@@ -5,10 +5,11 @@ import utils
 
 import cv2 as cv
 import imutils
+import logging
 
 #TODO: create error list
-ERROR_LIST = [] # e.g. angle and distance too high
-MIN_SHOULDER_DISTANCE=50
+ERROR_LIST = [] # e.g. shoulder detection error
+MIN_SHOULDER_DISTANCE=0
 
 class CMate:
     def __init__(self, source_img, dest_img):
@@ -39,20 +40,21 @@ class CMate:
         try:
             # initialize source pose estimator
             self.source_pose_estimator = PoseEstimator(source_img)
-            source_distance, source_angle = self.source_pose_estimator.get_shoulder_details()
+            source_distance = self.source_pose_estimator.get_shoulder_details()
             source_points = self.source_pose_estimator.get_shoulder_points()
         except Exception as e:
             print(str(e))
             # if no source shoulder points detected
             self.error_list.append("Issue in source image:"+str(e))
-            source_points, source_distance, source_angle = custom_shoulder_locator.get_shoulder_details_mannual(cloth_seg)
+            logging.warning("Using manual shoulder detection for source image.")
+            source_points, source_distance = custom_shoulder_locator.get_shoulder_details_mannual(cloth_seg)
 
-        return source_points, source_distance, source_angle
+        return source_points, source_distance
 
     def apply_cloth(self):
         # step 1: get dest shoulder distance and rotation angle
         try:
-            dest_distance, dest_angle = self.dest_pose_estimator.get_shoulder_details()
+            dest_distance = self.dest_pose_estimator.get_shoulder_details()
         except Exception as e:
             raise Exception("Issue in profile image:"+str(e))
         # step 2: get source image and segmented cloth
@@ -61,7 +63,7 @@ class CMate:
         # cv.imwrite("testseg.jpg", source_seg)
 
         # step 3: get source shoulder distance and rotation angle
-        source_points, source_distance, source_angle = self.get_source_shoulder_details(
+        source_points, source_distance = self.get_source_shoulder_details(
             source_img, source_seg)
 
         # step 4: resize source seg and shoulder points
@@ -81,7 +83,7 @@ class CMate:
             source_points[0], resize_factor)
         source_points[1] = utils.resize_shoulder_coord(
             source_points[1], resize_factor)
-
+        """
         # step 5: rotate source seg and shoulder points
         rotation_angle = dest_angle - source_angle
         # clip angle between [-10,10]
@@ -92,16 +94,17 @@ class CMate:
         rotated_seg = imutils.rotate(source_seg, rotation_angle)
         source_points = utils.rotate_shoulder_points(source_seg, source_points,
                                                      rotation_angle)
+        """
 
         # step 5.2: remove border
-        _, rotated_seg = utils.remove_segmentation_border(rotated_seg)
+        _, source_seg = utils.remove_segmentation_border(source_seg)
 
         # step 6: blend dest image and extracted cloth
         dest_frame = cv.imread(self.dest_img)
         dest_points = self.dest_pose_estimator.get_shoulder_points()
         try:
             final_img = utils.blend_images(
-                rotated_seg, source_points, dest_frame, dest_points)
+                source_seg, source_points, dest_frame, dest_points)
         except AssertionError:
             print("Assertion Error in blending images.")
             raise Exception("Issue in blending Images.")

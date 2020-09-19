@@ -8,7 +8,7 @@ from werkzeug.utils import secure_filename
 from controller.image_upload_form import ProfileImageUploadForm, SourceImageUploadForm
 from controller.utils import session_alive, download_image
 from controller.cmate import blend_images
-from controller.local_cache import cache, set_cache
+from controller.local_cache import cache, set_cache, clear_cache
 
 from config import app_config
 
@@ -26,6 +26,13 @@ def home():
     if session_alive(PROFILE_DIR):
         profile_image = session['profile_image']
     return render_template('index.html', profile_image=profile_image)
+
+@app.route('/footer/<path:link>')
+def footer(link):
+    try:
+        return render_template('footer/'+link)
+    except Exception:
+        return render_template('404.html'), 404
 
 @app.errorhandler(404)
 def page_not_found(e):
@@ -156,18 +163,15 @@ def get_result_image(filename):
 
 @app.route('/sample_profile_images/', methods=['GET', 'POST'])
 def sample_profile_images():
-
     sample_profile_images = [str(path.name) for path in (Path(app.static_folder)/'images'/'samples'/'profile_images').iterdir()]
-
     return jsonify(sample_profile_images=sample_profile_images[:5])
 
-@app.route('/recent_source_images/', methods=['GET', 'POST'])
-def recent_source_images():
 
-    recent_source_images = [str(path.name) for path in sorted(Path(SOURCE_DIR).iterdir(),
-                                                         key=os.path.getmtime)]
+@app.route('/sample_source_images/', methods=['GET', 'POST'])
+def sample_source_images():
+    sample_source_images = [str(path.name) for path in (Path(app.static_folder)/'images'/'samples'/'source_images').iterdir()]
+    return jsonify(sample_source_images=sample_source_images[:5])
 
-    return jsonify(recent_source_images=recent_source_images[:5])
 
 @app.route('/pick_profile_image/<path:filename>', methods=['GET', 'POST'])
 def pick_profile_image(filename):

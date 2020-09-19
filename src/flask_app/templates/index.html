@@ -7,12 +7,12 @@
     {% if profile_image %}
       <img src="{{ url_for('get_profile_image', filename=profile_image)}}" class="img-fluid">
     {% else %}
-      <img src="{{ url_for('static', filename='images/samples/sample_profile1.jpg')}}" class="img-fluid">
+      <img src="{{ url_for('static', filename='images/samples/profile_images/sample-profile-image1.jpg')}}" class="img-fluid">
     {% endif %}
   </div>
   <div class="col-6 col-md">
-    <h1 class="display-4">Virtual Clothing Try On</h1>
-    <p class="lead">See how does it look on you. Try on clothes from online stores or your favourite celebrity outfit.</p>
+    <h1 class="display-4">CMate:Virtual Clothing Try On</h1>
+    <p class="lead">Try on clothes from <b>online stores</b> or your favourite celebrity outfit. See how does it look on you.</p>
     <a class="btn btn-outline-secondary" href="{{ url_for('upload_profile_image')}}">Try On</a>
   </div>
 </div>

@@ -108,10 +108,13 @@ def blend_images(source_seg, source_shoulder, dest, dest_shoulder):
     backoff = [right_shoulder[1]-start_crop[0],
                right_shoulder[0]-start_crop[1]]  # row, col
     # print(backoff)
-    assert backoff[0]>0 and backoff[1]>0
+    # assert backoff[0]>0 and backoff[1]>0
+    if backoff[0] < 0: backoff[0] = 0
+    if backoff[1] < 0: backoff[1] = 0
+
 
     # calc dest frame top-right location
-    top_h, top_w = (dest_shoulder[0][1]-backoff[0]) + 10, dest_shoulder[0][0]-backoff[1]
+    top_h, top_w = (dest_shoulder[0][1]-backoff[0]-10), (dest_shoulder[0][0]-backoff[1])
 
     # left-trim cloth segmentation if top-right point is outside of profile image
     roi_x = roi_y = 0 # (x=row, y=col)

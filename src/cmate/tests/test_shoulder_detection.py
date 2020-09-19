@@ -6,6 +6,6 @@ import sys
 sys.path.append(os.path.dirname(os.path.dirname(__file__)))
 from pose_estimator import PoseEstimator
 
-sample_file = "E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\files\\user_uploads\\n00554A.jpg"
+sample_file = "E:\\Sanjay\\mlprojects\\virtual_try_on\\src\\flask_app\\files\\user_uploads\\source_images\\imgbin-selena-gomez-dress-clothing-selena-gomez.jpg"
 img = cv.imread(sample_file)
 PoseEstimator(img).visualize_pose()
