@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+{% block style %}
+<style type="text/css">
+    .box-img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+
+</style>
+
+{% endblock %}
+
+{% block content %}
+
+<section class="m-3">
+    <section>
+        <h2 class="display-4">CMate:Virtual Clothing Try On</h2>
+        <p class="lead">Try on clothes from <b>online stores</b> or your favourite celebrity outfit. See how does it look on you.</p>
+    </section>
+    <hr>
+    <div class="row p-3" style="background: rgb(245, 245, 245);">
+        <div class="col">
+            <h2><span class="text-primary">&#9312</span> Upload Profile Image</h2>
+            <p class="lead">Upload your half body profile image with normal pose.<br> Or you can get started by choosing sample profile image.</p>
+        </div>
+        <div class="col">
+            <img src="{{ url_for('static', filename='images/samples/profile_images/sample-profile-image1.jpg')}}" class="img-fluid box-img" style="float: right;">
+        </div>
+    </div>
+
+    <div class="row p-3">
+        <div class="col">
+            <img src="{{ url_for('static', filename='images/samples/source_images/sample-source-image1.jpg')}}" class="img-fluid box-img" style="float: left;">
+        </div>
+        <div class="col">
+            <h2><span class="text-primary">&#9313</span> Upload Source Image</h2>
+            <p class="lead">Copy-Paste image URL containing cloth which you want to try on.<br> Or you can get started by choosing sample source image.</p>
+        </div>
+    </div>
+
+    <div class="row p-3" style="background: rgb(245, 245, 245);">
+        <div class="col">
+            <h2><span class="text-primary">&#9314</span> Try on</h2>
+            <p class="lead">Let CMate do the work. See how does it look on you.<br>View <a href="{{ url_for ('footer', link='guidelines.html')}}">guidelines</a> to get the best result.</p>
+        </div>
+        <div class="col">
+            <img src="{{ url_for('static', filename='images/samples/sample-result-image1.jpg')}}" class="img-fluid box-img" style="float: right;">
+        </div>
+    </div>
+</section>
+{% endblock %}

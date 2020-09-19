@@ -1,0 +1,73 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<section class="m-3">
+    <section>
+        <h2 class="display-4">CMate:FAQ</h2>
+        <p class="lead">Frequently Asked Questions</p>
+    </section>
+    <hr>
+    <div id="accordion">
+        <div class="card">
+          <div class="card-header" id="headingOne"> 
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <span class="lead"> What is CMate?</span>
+              </button>
+            </h5>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+            <div class="card-body">
+              <p>
+                CMate is an AI-powered virtual clothing try on tool.
+                You can try on cloth online and see how does the cloth look on you at first glance.
+                It supports upper wear clothes for men and women.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <span class="lead">What are CMate use cases?<span>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+            <div class="card-body">
+              <p>
+                This tool can be used by individual to virtually try on cloth online.
+                You may try on celebrity outfit or any random outfit available online.
+                Individuals can try on cloth from online stores before buying.
+                Similarly, online stores can use this tool to provide try on feature for customers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+              <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <span class="lead">How does it work?</span>
+              </button>
+            </h5>
+          </div>
+          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+            <div class="card-body">
+              <p>
+                It works by extractng cloth from source image and fits into your profile image.
+                Under the hood, it uses two separate deep learning models.
+                Cloth segmentation model to extract to cloth from source image.
+                Pose estimator model is used to locate shoulder points.
+                Finally, extracted cloth is blended into profile image based on shoulder location.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+{% endblock %}
