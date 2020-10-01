@@ -123,15 +123,6 @@ def vis_segmentation(image, seg_map):
     plt.show()
 
 
-"""## Select a pretrained model
-We have trained the DeepLab model using various backbone networks. Select one from the MODEL_NAME list.
-"""
-
-TEST_IMAGES = ["C:\\Users\\sanja\\Desktop\\pose_test\\" +
-               item for item in os.listdir("C:\\Users\\sanja\\Desktop\\pose_test")]
-
-IMAGE_URL = TEST_IMAGES[2]
-
 
 def run_visualization(image_path):
     """Inferences DeepLab model and visualizes result."""
@@ -153,9 +144,6 @@ def run_visualization(image_path):
 
     vis_segmentation(resized_im, seg_map)
 
-
-# image_url = IMAGE_URL
-# run_visualization(image_url)
 
 def extract_cloth(image_path):
     """Inferences DeepLab model and return cloth segmentation."""

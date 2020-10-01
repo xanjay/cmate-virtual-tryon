@@ -44,5 +44,9 @@ def get_shoulder_details_mannual(cloth_seg):
         print("Error at manual shoulder detection.\n"+str(e))
         raise Exception("Invalid Source Image.")
 
-# img = cv.imread("C:\\Users\\sanja\\Desktop\\testseg.jpg")
+# test run
+# SAMPLES_DIR = os.environ['ROOT_DIR']+"/src/flask_app/static/images/samples"
+# sample_file = SAMPLES_DIR+"/profile_images/sample-profile-image1.jpg"
+
+# img = cv.imread(sample_file)
 # print(get_shoulder_details_mannual(img))

@@ -1,0 +1,3 @@
+sudo docker build -f Dockerfile -t cmate .
+sudo docker run -p 8080:8080 -t cmate .
+# list docker images: docker images

@@ -1,24 +1,20 @@
 from flask import (flash, render_template, request, redirect,
                    session, url_for, send_from_directory, jsonify)
-
 from pathlib import Path
 import os
 from werkzeug.utils import secure_filename
 
 from controller.image_upload_form import ProfileImageUploadForm, SourceImageUploadForm
-from controller.utils import session_alive, download_image
+from controller.utils import (session_alive, download_image)
 from controller.cmate import blend_images
 from controller.local_cache import cache, set_cache, clear_cache
-
-from config import app_config
 
 from __init__ import create_app
 app = create_app()
 
-
-PROFILE_DIR = str(Path(app_config["FILES_DIR"])/app_config['UPLOAD_FOLDER']/'profile_images')
-SOURCE_DIR = str(Path(app_config["FILES_DIR"])/app_config['UPLOAD_FOLDER']/'source_images')
-RESULT_DIR = str(Path(app_config["FILES_DIR"])/app_config['RESULT_FOLDER'])
+PROFILE_DIR = app.config["PROFILE_DIR"]
+SOURCE_DIR = app.config["SOURCE_DIR"]
+RESULT_DIR = app.config["RESULT_DIR"]
 
 @app.route('/')
 def home():
