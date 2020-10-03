@@ -13,23 +13,22 @@ It is a flask web application powered by deep learning.
 It works by extractng cloth from source image and fitting into your profile image.<br>
 Under the hood, it uses two separate deep learning models:<br>
 **Cloth segmentation model**: Custom Deeplab model to extract cloth from source image.<br>
-**Pose estimator model**: Pretrained Openpose model used to locate shoulder points.<br>
+**Pose estimator model**: Pretrained Openpose body_25 model used to locate shoulder points.<br>
 Extracted cloth is blended into profile image based on shoulder location.
 
-## Datasets
-- Deepfashion2
-- MPII Dataset
+## Dataset
+- Deepfashion2 Dataset: used to train cloth segmentation model.
 
 ## Installation
 Use docker image  or see installation.md.
 
 ## References
-- Deeplab
-- Openpose
+- Deeplab: https://github.com/tensorflow/models/tree/master/research/deeplab
+- Deepfashion2 Dataset: https://github.com/switchablenorms/DeepFashion2
+- Openpose: https://github.com/CMU-Perceptual-Computing-Lab/openpose
 
 ## Contributing
-Feel free to send pull requests on issue fixes or improvements.
+If you have any issue fixes or improvement changes. Fork this repo, make changes and submit pull request.
 
 ## License
 CMate is freely available for free non-commercial use under Apache License.
-

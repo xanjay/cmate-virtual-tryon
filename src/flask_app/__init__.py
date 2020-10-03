@@ -6,8 +6,8 @@ import sys
 import logging
 from datetime import datetime
 
-from config import app_config
-from controller.utils import (create_dirs, prepare_sample_images)
+from .config import app_config
+from .controller.utils import (create_dirs, prepare_sample_images)
 
 PROFILE_DIR = str(Path(app_config["FILES_DIR"])/app_config['UPLOAD_FOLDER']/'profile_images')
 SOURCE_DIR = str(Path(app_config["FILES_DIR"])/app_config['UPLOAD_FOLDER']/'source_images')

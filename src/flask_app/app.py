@@ -9,7 +9,7 @@ from controller.utils import (session_alive, download_image)
 from controller.cmate import blend_images
 from controller.local_cache import cache, set_cache, clear_cache
 
-from __init__ import create_app
+from flask_app import create_app
 app = create_app()
 
 PROFILE_DIR = app.config["PROFILE_DIR"]
@@ -182,5 +182,5 @@ def pick_source_image(filename):
     return redirect(url_for('tryon'))
 
 
-if __name__ == '__main__':
-    app.run()
+# if __name__ == '__main__':
+#     app.run()
