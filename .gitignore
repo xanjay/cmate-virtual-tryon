@@ -6,5 +6,5 @@ __pycache__/
 logs/
 files/
 
-**/*.pb
-**/*.caffemodel
+models/*.pb
+models/*.caffemodel
