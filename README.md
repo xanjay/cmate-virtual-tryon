@@ -20,7 +20,7 @@ Extracted cloth is blended into profile image based on shoulder location.
 - Deepfashion2 Dataset: used to train cloth segmentation model.
 
 ## Installation
-Use docker image  or see installation.md.
+Use docker image or see installation.md.
 
 ## References
 - Deeplab: https://github.com/tensorflow/models/tree/master/research/deeplab

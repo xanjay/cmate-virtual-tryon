@@ -34,13 +34,19 @@ First setup python3 virtual environment and install dependencies using requireme
 ~ cd $ROOT_DIR
 ~ pip install -r requirements.txt
 ```
-### Matplotplib support for ubuntu (Optional)
+### Matplotlib support for ubuntu (Optional)
 Install Python tkinter if you want to try on test visualization scripts.
 ```
 sudo apt-get install python3-tk -y
 ```
 
-## Step 4: Run Flask App
+## Step 5: Download model files
+```
+~ cd $ROOT_DIR/src/cmate/segmentation/models
+~ sh get_models.sh
+```
+
+## Step 5: Run Flask App
 Note: set `--eager-loading` in flask run command if you need to run flask in debug mode.
 ```
 ~ cd $ROOT_DIR/src/flask_app/
@@ -48,7 +54,7 @@ Note: set `--eager-loading` in flask run command if you need to run flask in deb
 ~ flask run --host=0.0.0.0 --port=8080
 ```
 
-## Access CMate Web App
+## Step 6: Access CMate Web App
 ```
 http://0.0.0.0:8080
 ```
