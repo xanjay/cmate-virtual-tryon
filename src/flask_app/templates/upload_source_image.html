@@ -10,9 +10,9 @@
 <div class="row">
     <div class="col-6 col-md">
         {% if source_image %}
-          <img src="{{ url_for('get_source_image', filename=source_image)}}" class="img-fluid">
+          <img src="{{ url_for('get_source_image', filename=source_image)}}" class="img-fluid img-box">
         {% else %}
-          <img src="{{ url_for('static', filename='images/samples/source_images/sample-source-image3.jpg')}}" class="img-fluid">
+          <img src="{{ url_for('static', filename='images/samples/source_images/sample-source-image3.jpg')}}" class="img-fluid img-box">
         {% endif %}
       </div>
 

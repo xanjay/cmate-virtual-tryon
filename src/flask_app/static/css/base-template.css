@@ -26,3 +26,7 @@ footer {
   border: solid 2px #17a2b8;
   padding:-2px;
 }
+
+.img-box {
+  max-height: 27rem;
+}

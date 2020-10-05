@@ -1,5 +1,5 @@
-A virtual clothing try on tool.
-
+CMate: A virtual clothing try on tool.
+https://img.shields.io/docker/cloud/build/xanjay/cmate
 # About CMate
 CMate is a virtual clothing try on tool. Given a profile image and a source image containing cloth, it applies the cloth to your profile image and let you see how does it look on you as if you were actually wearing it.<br>
 It is a flask web application powered by deep learning.
