@@ -1,9 +1,9 @@
-CMate: A virtual clothing try on tool.
-https://img.shields.io/docker/cloud/build/xanjay/cmate
-# About CMate
+<img src="https://github.com/xanjay/cmate-virtual-tryon/blob/master/src/flask_app/static/images/logo.png" height="200" /><br>
+<img src="https://img.shields.io/docker/cloud/build/xanjay/cmate" /><br>
+## About CMate
 CMate is a virtual clothing try on tool. Given a profile image and a source image containing cloth, it applies the cloth to your profile image and let you see how does it look on you as if you were actually wearing it.<br>
-It is a flask web application powered by deep learning.
-
+It is a flask web application powered by deep learning.<br><br>
+<img src="https://github.com/xanjay/cmate-virtual-tryon/blob/master/docs/cmate-demo.gif" height="300" /><br>
 ### Features
 - Supports all kinds of upper wear clothes for both men and women.
 - Accurate cloth extraction and fitting.
@@ -17,10 +17,10 @@ Under the hood, it uses two separate deep learning models:<br>
 Extracted cloth is blended into profile image based on shoulder location.
 
 ## Dataset
-- Deepfashion2 Dataset: used to train cloth segmentation model.
+- **Deepfashion2 Dataset**: used to train cloth segmentation model.
 
 ## Installation
-Use docker image or see installation.md.
+Use [docker image](https://hub.docker.com/r/xanjay/cmate) OR see [installation.md](https://github.com/xanjay/cmate-virtual-tryon/blob/master/docs/installation.md).
 
 ## References
 - Deeplab: https://github.com/tensorflow/models/tree/master/research/deeplab
@@ -31,4 +31,4 @@ Use docker image or see installation.md.
 If you have any issue fixes or improvement changes. Fork this repo, make changes and submit pull request.
 
 ## License
-CMate is freely available for free non-commercial use under Apache License.
+CMate is freely available for free non-commercial use under [Apache License 2.0](https://github.com/xanjay/cmate-virtual-tryon/blob/master/LICENSE).

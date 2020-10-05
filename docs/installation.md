@@ -11,17 +11,19 @@ Note: CMate can be run on Windows with slight modifications on file path format.
 ### GPU Support
 By default, CMate uses Tensorflow CPU. If you have high performance GPU, you can pip install `tensorflow-gpu 1.15.0` to further improve performance.
 
+## Installation
+
 You can quickly install CMate using docker image:
 ```
-~ sudo docker pull xanjay/cmate
-~ sudo docker run -p 8080:8080 -t cmate .
+~ docker pull xanjay/cmate
+~ docker run -p 8080:8080 -t cmate .
 ```
-Access web app:`http://0.0.0.0:8080`
+Access web app:`http://0.0.0.0:8080`<br>
 If you choose to install from source, please follow below steps:
 
-## Step 1: Download OR Clone this repository
+## Step 1: Download or Clone this repository
  ```
- git clone https://github.com/CMU-Perceptual-Computing-Lab/openpose
+ git clone https://github.com/xanjay/cmate-virtual-tryon.git
  ```
 ## Step 2: Set Environment Variables
 ```
