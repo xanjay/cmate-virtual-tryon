@@ -16,7 +16,7 @@ By default, CMate uses Tensorflow CPU. If you have high performance GPU, you can
 You can quickly install CMate using docker image:
 ```
 ~ docker pull xanjay/cmate
-~ docker run -p 8080:8080 -t cmate .
+~ docker run -it -p 8080:8080 xanjay/cmate
 ```
 Access web app:`http://0.0.0.0:8080`<br>
 If you choose to install from source, please follow below steps:
@@ -29,6 +29,7 @@ If you choose to install from source, please follow below steps:
 ```
 ~ export ROOT_DIR="/path/to/cmate"
 ~ export SECRET_KEY="some_secret_text" # generate using os.urandom(20)
+~ export FLASK_APP=wsgi.py
 ```
 ## Step 3: Install Dependencies
 First setup python3 virtual environment and install dependencies using requirements file.
@@ -52,7 +53,6 @@ sudo apt-get install python3-tk -y
 Note: set `--eager-loading` in flask run command if you need to run flask in debug mode.
 ```
 ~ cd $ROOT_DIR/src/flask_app/
-~ export FLASK_APP=wsgi.py
 ~ flask run --host=0.0.0.0 --port=8080
 ```
 
