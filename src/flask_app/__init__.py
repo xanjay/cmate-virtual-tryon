@@ -17,7 +17,7 @@ def create_app():
 
     # Set the secret key to some random bytes. Keep this really secret!
     config = {
-        "DEBUG": True,
+        "DEBUG": False,
         "SECRET_KEY": app_config["SECRET_KEY"],
         "CACHE_TYPE": "simple",  # Flask-Caching related configs
         "CACHE_DEFAULT_TIMEOUT": 300,
