@@ -12,6 +12,7 @@ BODY_25_URL="https://www.dropbox.com/sh/pfrrd0znex1nerz/AABVEnY0ptgrc9iGmjQjBjRD
 BODY_25_FOLDER="mpii_openpose_body25"
 BODY_25_MODEL="pose_iter_584000.caffemodel"
 
+mkdir -p deeplab
 wget -c ${DEEPLAB_URL} -O ${DEEPLAB_FOLDER}/${DEEPLAB_MODEL}
 wget -c ${BODY_25_URL} -O ${BODY_25_FOLDER}/${BODY_25_MODEL}
 
